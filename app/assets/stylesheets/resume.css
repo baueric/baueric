@@ -1,0 +1,86 @@
+
+#resume_container {
+    position: relative;
+    font-family: Century Gothic, serif;
+    /*border-left: 1px solid #000000;*/
+    /*border-right: 1px solid #000000;*/
+    padding: 10px 15px 0px 0px;
+}
+
+.resume_title {
+    float: left;
+    font-size: 34px;
+    padding: 0px 0px 0px 15px;
+    margin: 0px 0px -10px 0px;
+}
+
+.resume_job_title {
+    display: inline;
+    border-left: 1px solid #000000;
+    padding: 0px 0px 0px 14px;
+    margin: 0px 0px 0px 0px;
+    font-size: 20px;
+}
+
+
+.resume_institution {
+    float: left;
+    clear: both;
+    font-size: 24px;
+    margin: 35px 0px 0px 40px;
+    padding: 0px 10px 0px 10px;
+    border-left: 2px solid #000000;
+    font-weight: bold;
+}
+
+.resume_parens {
+    display: inline;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.resume_section_description {
+    writing-mode: tb-rl;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    white-space: nowrap;
+    display: block;
+    position: absolute;
+    width: 6px;
+    height: 20px;
+    margin: 0px 0px 0px -30px;
+    font-size: 17px;
+    font-weight: 100;
+    /*font-style: italic;*/
+}
+
+.resume_project {
+    font-size: 20px;
+    margin: 30px 0px 0px 50px;
+    padding: 0px 0px 0px 10px;
+    border-left: 1px solid #000000;
+    font-weight: bold;
+}
+
+.resume_project_bullet_indicator {
+    float:left;
+    width:8px;
+    position:relative;
+    border-bottom:1px solid #000000;
+    margin-right: 6px;
+    top: 11px;
+}
+
+.resume_project_bullet {
+    font-size: 16px;
+    margin: 10px 0px 0px 20px;
+    clear: both;
+    font-weight: 100;
+}
+
+.resume_bold_text {
+    display: inline;
+    font-weight: bold;
+}

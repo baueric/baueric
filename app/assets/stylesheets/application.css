@@ -13,55 +13,7 @@
  */
 
 #body {
-    background-color: #708090;
+    background-color: #ffffff;
+    margin: 0px;
 }
 
-#main_content_pane {
-    width: 1000px;
-    min-height: 700px;
-    margin: 20px auto;
-    background-image: url(low_contrast_linen.png);
-    background-repeat: repeat;
-
-    background-clip: content-box;
-    border: 7px;
-    border-color: #fffaf0;
-    border-style: double;
-    position: relative;
-}
-
-#banner {
-    background-image: url("CobbleBanner.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 170px;
-    border-bottom-color: #ffefd5;
-    border-bottom-width: 2px;
-    border-bottom-style: solid;
-    position: relative;
-}
-
-#logo_area {
-    position: absolute;
-    height: 100%;
-    width: 280px;
-}
-
-/*A class foreignObject moving divs to center vertically*/
-#logo_center_floater {
-    float:left;
-    height: 50%;
-    position: relative;
-}
-
-#logo {
-    background-image: url("Logo.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 245px;
-    height: 60px;
-    margin: 0 auto;
-    top: -25px;
-    clear: left;
-    position: relative;
-}
