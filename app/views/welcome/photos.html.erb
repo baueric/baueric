@@ -1,0 +1,269 @@
+
+
+<script>
+    $(function(){
+        $('#slides').slides({
+            preload: true,
+            preloadImage: 'assets/loading.gif',
+            play: 6000,
+            pause: 6000,
+            hoverPause: true,
+            crossfade: true,
+            bigTarget: true,
+            effect: 'slide',
+            autoHeight: true,
+            prependPagination: true,
+            animationStart: function(){
+                //mouse_out_image(img2_caption);
+            },
+            animationComplete: function(){
+                //mouse_over_image(img2_caption);
+            }
+
+        });
+    });
+</script>
+
+<div id="slides">
+  <div class="slides_container">
+
+    <!--Standing at the lake in Austria-->
+    <div style="background-image: url(https://lh5.googleusercontent.com/-SG-7QiJgccs/UOh1Tcn7QvI/AAAAAAAA3-4/8d9vbY2jTr0/s1000/Standing_dock.jpg);"
+         onmouseover="mouse_over_image(img1_caption)" onmouseout="mouse_out_image(img1_caption)">
+      <p class="slideshow_caption" id="img1_caption" >
+        Grundlsee, Austria
+      </p>
+    </div>
+
+    <!--Hiking with ocean in background Lincoln City-->
+    <div style="background-image: url(https://lh3.googleusercontent.com/-WOTfta9SAXk/UOi1xSERneI/AAAAAAAA4D8/tSkSUPaTJSM/s1000/IMG_6092.JPG);"
+         onmouseover="mouse_over_image(img2_caption)" onmouseout="mouse_out_image(img2_caption)" >
+      <p class="slideshow_caption" id="img2_caption" >
+        Lincoln City, Oregon
+      </p>
+    </div>
+
+    <!--Kim and john hawaii-->
+    <div style="background-image: url(https://lh6.googleusercontent.com/-RtPcKcUezTE/UOi1fyNO1gI/AAAAAAAA4Ds/YC1RXxJXF54/s1000/IMG_4719.JPG);"
+         onmouseover="mouse_over_image(img3_caption)" onmouseout="mouse_out_image(img3_caption)">
+      <p class="slideshow_caption" id="img3_caption" >
+        Oahu, Hawaii
+      </p>
+    </div>
+
+    <!--Salzburg at night-->
+    <div style="background-image: url(https://lh4.googleusercontent.com/-swIzQXpc53E/UOh1eNa7epI/AAAAAAAA3_c/8fhu07uA1AM/s1000/IMG_0627.JPG);"
+         onmouseover="mouse_over_image(img4_caption)" onmouseout="mouse_out_image(img4_caption)">
+      <p class="slideshow_caption" id="img4_caption" >
+        Salzburg, Austria
+      </p>
+    </div>
+
+    <!--walking on the beach in Lincoln City OR-->
+    <div style="background-image: url(https://lh6.googleusercontent.com/-HH6PqyxJ3kA/UOh3nWKUWdI/AAAAAAAA4Ak/sZ5rlgIjCd0/s1000/IMG_5846.JPG);"
+         onmouseover="mouse_over_image(img5_caption)" onmouseout="mouse_out_image(img5_caption)">
+      <p class="slideshow_caption" id="img5_caption" >
+        Lincoln City, Oregon
+      </p>
+    </div>
+
+    <!--Dad on the boat-->
+    <div style="background-image: url(https://lh3.googleusercontent.com/-u_q8OoOFJ28/UOh8E-sjUOI/AAAAAAAA4BE/TugIe3VBGzo/s1000/Boat3.jpg);"
+         onmouseover="mouse_over_image(img6_caption)" onmouseout="mouse_out_image(img6_caption)">
+      <p class="slideshow_caption" id="img6_caption" >
+        Manchester by the Sea, MA
+      </p>
+    </div>
+
+    <!--Water skiing wide angle-->
+    <div style="background-image: url(https://lh4.googleusercontent.com/-CkgtzKH66Go/UOh0-bgi8FI/AAAAAAAA3-w/5JTr9y2bqpw/s1000/IMG_1353.JPG);"
+         onmouseover="mouse_over_image(img7_caption)" onmouseout="mouse_out_image(img7_caption)">
+      <p class="slideshow_caption" id="img7_caption" >
+        Acton, Maine
+      </p>
+    </div>
+
+    <!--Scott waterskiing-->
+    <div style="background-image: url(https://lh5.googleusercontent.com/-_Q-faP-itjM/UOiM0MTkx6I/AAAAAAAA4CI/3LyUoDK0TP8/s1000/IMG_1346.JPG);"
+         onmouseover="mouse_over_image(img8_caption)" onmouseout="mouse_out_image(img8_caption)">
+      <p class="slideshow_caption" id="img8_caption" >
+        Acton, Maine
+      </p>
+    </div>
+
+    <!--Buildings in munich at night-->
+    <div style="background-image: url(https://lh5.googleusercontent.com/-7_st-SvmGzA/UOh1V2ENx8I/AAAAAAAA3_E/nntzb82UsBY/s1000/IMG_0905.JPG);"
+         onmouseover="mouse_over_image(img9_caption)" onmouseout="mouse_out_image(img9_caption)">
+      <p class="slideshow_caption" id="img9_caption" >
+        Munich, Germany
+      </p>
+    </div>
+
+    <!--Aly standing in Vienna at night. Low shot.-->
+    <div style="background-image: url(https://lh4.googleusercontent.com/-w0vBCyVqgQE/UOh1a-uwD4I/AAAAAAAA3_U/1XVh2uIo438/s1000/IMG_0265.JPG);"
+      onmouseover="mouse_over_image(img10_caption)" onmouseout="mouse_out_image(img10_caption)">
+      <p class="slideshow_caption" id="img10_caption" >
+        Vienna, Austria
+      </p>
+    </div>
+
+    <!--Top of the hill in San Francisco-->
+    <div style="background-image: url(https://lh4.googleusercontent.com/-30O_JZI-G54/UOh1tXByYGI/AAAAAAAA3_s/U8_4RmoBimg/s1000/IMG_7865.JPG);"
+         onmouseover="mouse_over_image(img11_caption)" onmouseout="mouse_out_image(img11_caption)">
+      <p class="slideshow_caption" id="img11_caption" >
+        San Francisco, California
+      </p>
+
+    </div>
+
+    <!--Wine tasting San Fran-->
+    <div style="background-image: url(https://lh4.googleusercontent.com/-9dyRXLz2eWU/UOh0PoY5uXI/AAAAAAAA37U/SXr94qM6qVU/s1000/IMG_7818.JPG);"
+         onmouseover="mouse_over_image(img12_caption)" onmouseout="mouse_out_image(img12_caption)">
+      <p class="slideshow_caption" id="img12_caption" >
+        Napa Valley, California
+      </p>
+
+    </div>
+
+    <!--Aly on Prague bridge-->
+    <div style="background-image: url(https://lh4.googleusercontent.com/-rQYxMiksJzw/UOh1Yj4F6iI/AAAAAAAA3_M/U6h2C9LDu_A/s1000/IMG_1025.JPG);"
+         onmouseover="mouse_over_image(img13_caption)" onmouseout="mouse_out_image(img13_caption)">
+      <p class="slideshow_caption" id="img13_caption" >
+        Prague, Czech Republic
+      </p>
+
+    </div>
+
+    <!--Lincoln city sunset-->
+    <div style="background-image: url(https://lh5.googleusercontent.com/-NMjBeqas-BQ/UOh16xGZFbI/AAAAAAAA3_0/D6hQbij7x-E/s1000/IMG_5521.JPG);"
+         onmouseover="mouse_over_image(img14_caption)" onmouseout="mouse_out_image(img14_caption)">
+      <p class="slideshow_caption" id="img14_caption" >
+        Lincoln City, Oregon
+      </p>
+
+    </div>
+
+    <!--Honolulu at night-->
+    <div style="background-image: url(https://lh4.googleusercontent.com/-4V708WaFizU/UOh2RhkpffI/AAAAAAAA4AE/f6tbTkwPhvM/s1000/IMG_4968.JPG);"
+         onmouseover="mouse_over_image(img15_caption)" onmouseout="mouse_out_image(img15_caption)">
+      <p class="slideshow_caption" id="img15_caption" >
+        Honolulu, Hawaii
+      </p>
+
+    </div>
+
+    <!--Honolulu rainbow-->
+    <div style="background-image: url(https://lh5.googleusercontent.com/-YxUjGzkAbRk/UOh2dm928oI/AAAAAAAA4AM/_aLkN2EpD28/s1000/IMG_4786.JPG);"
+         onmouseover="mouse_over_image(img16_caption)" onmouseout="mouse_out_image(img16_caption)">
+      <p class="slideshow_caption" id="img16_caption" >
+        Honolulu, Hawaii
+      </p>
+
+    </div>
+
+    <!--Mountains in china-->
+    <div style="background-image: url(https://lh4.googleusercontent.com/-HJ21ZuoLyeE/TGs7q_1VW3I/AAAAAAAAwCE/amqlanQkgzY/s1000/IMG_2039.jpg);"
+         onmouseover="mouse_over_image(img17_caption)" onmouseout="mouse_out_image(img17_caption)">
+      <p class="slideshow_caption" id="img17_caption" >
+        Yangshuo, China
+      </p>
+
+    </div>
+
+    <!--Hawaii purple sunset-->
+    <div style="background-image: url(https://lh5.googleusercontent.com/--uoH5Vu7iY0/UOh24SKvP8I/AAAAAAAA4Ac/EZO5jV6ZCzo/s1000/IMG_4698.JPG);"
+         onmouseover="mouse_over_image(img18_caption)" onmouseout="mouse_out_image(img18_caption)">
+      <p class="slideshow_caption" id="img18_caption" >
+        Oahu, Hawaii
+      </p>
+
+    </div>
+
+    <!--Jon and Kim Haleakala-->
+    <div style="background-image: url(https://lh6.googleusercontent.com/-SKU3jwDILec/UOiNZ7ISm1I/AAAAAAAA4CY/YiodlG4ROKk/s1000/P1010884.JPG);"
+         onmouseover="mouse_over_image(img19_caption)" onmouseout="mouse_out_image(img19_caption)">
+      <p class="slideshow_caption" id="img19_caption" >
+        Maui, Hawaii
+      </p>
+
+    </div>
+
+    <!--Rock beach macro OR-->
+    <div style="background-image: url(https://lh5.googleusercontent.com/-2R0SHHou7pU/UOh4Oki2qUI/AAAAAAAA4A0/d53OXVEwF0M/s1000/IMG_5842.JPG);"
+         onmouseover="mouse_over_image(img20_caption)" onmouseout="mouse_out_image(img20_caption)">
+      <p class="slideshow_caption" id="img20_caption" >
+        Lincoln City, Oregon
+      </p>
+
+    </div>
+
+    <!--Mount hood from plane-->
+    <div style="background-image: url(https://lh3.googleusercontent.com/-fzf0LznlYvM/UOh4FQcNU6I/AAAAAAAA4As/gHtv5oXHvuE/s1000/IMG_5413.JPG);"
+         onmouseover="mouse_over_image(img21_caption)" onmouseout="mouse_out_image(img21_caption)">
+      <p class="slideshow_caption" id="img21_caption" >
+        Mount Hood, Oregon
+      </p>
+
+    </div>
+
+    <!--Flowers in china-->
+    <div style="background-image: url(https://lh4.googleusercontent.com/-pYvDyUPvV5A/UOh8y1I0_5I/AAAAAAAA4CQ/IG3cufw-26c/s1000/DSC02977.JPG);"
+         onmouseover="mouse_over_image(img22_caption)" onmouseout="mouse_out_image(img22_caption)">
+      <p class="slideshow_caption" id="img22_caption" >
+        Longji, China
+      </p>
+
+    </div>
+
+    <!--Rice terraces china-->
+    <div style="background-image: url(https://lh4.googleusercontent.com/-mKJT38NVVWc/UOh9AnctPNI/AAAAAAAA4BU/K1Q5kgqUny4/s1000/IMG_1880.jpg);"
+         onmouseover="mouse_over_image(img23_caption)" onmouseout="mouse_out_image(img23_caption)">
+      <p class="slideshow_caption" id="img23_caption" >
+        Longji, China
+      </p>
+
+    </div>
+
+    <!--Ornament reflection-->
+    <div style="background-image: url(https://lh6.googleusercontent.com/-XRdaOAAFiSs/UOiQNcgk-HI/AAAAAAAA4Co/cb3hym_IOME/s1000/IMG_3295.JPG);"
+         onmouseover="mouse_over_image(img24_caption)" onmouseout="mouse_out_image(img24_caption)">
+      <p class="slideshow_caption" id="img24_caption" >
+        Concord, Massachusetts
+      </p>
+
+    </div>
+
+    <!--Covered bridge white forest-->
+    <div style="background-image: url(https://lh3.googleusercontent.com/-KY-7MV94_EQ/UOiRkrQYSjI/AAAAAAAA4Cw/_KcfOqvchzg/s1000/IMG_3883.JPG);"
+         onmouseover="mouse_over_image(img25_caption)" onmouseout="mouse_out_image(img25_caption)">
+      <p class="slideshow_caption" id="img25_caption" >
+        White Mountain National Forest, NH
+      </p>
+
+    </div>
+
+    <!--John Caddilac mountain-->
+    <div style="background-image: url(https://lh5.googleusercontent.com/-KgTr7e95B4M/UOh7snmqtRI/AAAAAAAA4A8/0S_-6wx6yHw/s1000/IMG_2591.JPG);"
+         onmouseover="mouse_over_image(img26_caption)" onmouseout="mouse_out_image(img26_caption)">
+      <p class="slideshow_caption" id="img26_caption" >
+        Cadillac Mountain, Maine
+      </p>
+
+    </div>
+
+    <!--Fenway-->
+    <div style="background-image: url(https://lh5.googleusercontent.com/-qlxT7ES2REE/UOiPQBnMuRI/AAAAAAAA4Cg/k3pZnVLigQM/s1000/IMG_5315.JPG);"
+         onmouseover="mouse_over_image(img27_caption)" onmouseout="mouse_out_image(img27_caption)">
+      <p class="slideshow_caption" id="img27_caption" >
+        Boston, Massachusetts
+      </p>
+
+    </div>
+
+  </div>
+  <a href="#" class="prev"><img src="assets/arrow-prev.png" width="24" height="43" alt="Arrow Prev"></a>
+  <a href="#" class="next"><img src="assets/arrow-next.png" width="24" height="43" alt="Arrow Next"></a>
+</div>
+
+
+
