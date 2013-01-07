@@ -1,14 +1,44 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>BauEric</title>
-  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <title>bauEric</title>
+  <%= stylesheet_link_tag "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 
-<%= yield %>
+<div id="super_container">
+  <%= link_to image_tag("logo_new.png", :id => 'main_logo'), 'home' %>
+  <div id="banner">
+    <div id="nav_bar">
+      <div id="nav_center_floater">
+      </div>
+      <div id="nav_links_area">
+        <%= link_to "HOME", 'home', :class => 'nav_link' %>
+        <div class="nav_link_holder">
+          <%= link_to "PHOTOS", 'photos', :class => 'nav_link' %>
+        </div>
+        <div class="nav_link_holder">
+          <div class="nav_link" onclick="nav_link_click(contact_expander)">CONTACT</div>
+        </div>
+        <div class="nav_link_holder">
+          <%= link_to "RESUM&Eacute;".html_safe, 'resume', :class => 'nav_link' %>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="below_nav_expander" id="contact_expander">
+    eric@baueric.com
+  </div>
+  <div id="body_content">
+    <%= yield %>
+  </div>
+  <div id="footer">
+    <%= link_to image_tag("Facebook_logo.png", :class => 'footer_icon'), "http://www.facebook.com/ericbauer" %>
+    <%= link_to image_tag("Linkedin_logo_small.png", :class => 'footer_icon'), "http://www.linkedin.com/profile/view?id=97501511" %>
+  </div>
+</div>
 
 </body>
 </html>
