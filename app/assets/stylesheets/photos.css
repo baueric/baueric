@@ -9,7 +9,9 @@
 
 .slides_container div {
     width: 1000px;
-    height: 620px;
+    /*This is the maximum height allowed*/
+    height: 1000px;
+    margin-top: 5px;
     display: block;
     overflow: hidden;
     background-repeat: no-repeat;
@@ -17,6 +19,7 @@
 }
 
 #slides {
+    margin-top: -8px;
     position: relative;
     z-index: 100;
     -moz-user-select: none;
@@ -64,8 +67,9 @@
 */
 
 .pagination {
-    margin: 9px auto 0;
-    width: 100px;
+    margin: 0px auto;
+    /*This is set in the javascript of the photos page (18px per picture)*/
+    width: 396px;
 }
 
 .pagination li {

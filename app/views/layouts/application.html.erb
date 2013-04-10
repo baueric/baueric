@@ -20,6 +20,9 @@
           <%= link_to "PHOTOS", 'photos', :class => 'nav_link' %>
         </div>
         <div class="nav_link_holder">
+          <div class="nav_link" onclick="nav_link_click(projects_expander)">PROJECTS</div>
+        </div>
+        <div class="nav_link_holder">
           <div class="nav_link" onclick="nav_link_click(contact_expander)">CONTACT</div>
         </div>
         <div class="nav_link_holder">
@@ -28,6 +31,12 @@
       </div>
     </div>
   </div>
+  <div class="below_nav_expander" id="projects_expander">
+    Links to personal projects. I'm still working on this...
+    <!--<%= link_to 'Physics Engine', 'ornery_objects' %>-->
+    <!--<br/>-->
+    <!--<%= link_to 'Android App', 'android_app' %>-->
+  </div>
   <div class="below_nav_expander" id="contact_expander">
     eric@baueric.com
   </div>
@@ -35,8 +44,9 @@
     <%= yield %>
   </div>
   <div id="footer">
-    <%= link_to image_tag("Facebook_logo.png", :class => 'footer_icon'), "http://www.facebook.com/ericbauer" %>
-    <%= link_to image_tag("Linkedin_logo_small.png", :class => 'footer_icon'), "http://www.linkedin.com/profile/view?id=97501511" %>
+    <%= link_to image_tag("GitHub_logo_small.png", :class => 'footer_icon', :id => 'github_icon'), "https://github.com/baueric/", :title => 'GitHub', :rel => 'tooltip' %>
+    <%= link_to image_tag("Facebook_logo.png", :class => 'footer_icon', :id => 'facebook_icon'), "http://www.facebook.com/ericbauer", :title => 'Facebook', :rel => 'tooltip' %>
+    <%= link_to image_tag("Linkedin_logo_small.png", :class => 'footer_icon', :id => 'linkedin_icon'), "http://www.linkedin.com/profile/view?id=97501511", :title => 'LinkedIn', :rel => 'tooltip' %>
   </div>
 </div>
 

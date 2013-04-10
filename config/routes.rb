@@ -54,6 +54,8 @@ Baueric::Application.routes.draw do
   match "home" => "welcome#index"
   match "resume" => "welcome#resume"
   match "photos" => "welcome#photos"
+  match "ornery_objects" => "welcome#ornery_objects"
+  match "android_app" => "welcome#android_app"
 
   # See how all your routes lay out with "rake routes"
 

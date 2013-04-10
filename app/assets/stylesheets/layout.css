@@ -1,6 +1,3 @@
-body {
-    margin: 0px;
-}
 
 #super_container {
     width: 1000px;
@@ -76,6 +73,12 @@ body {
 
 #contact_expander {
     height: 30px;
+    padding-bottom: 10px;
+    font-family: Century Gothic, serif;
+}
+
+#projects_expander {
+    height: 50px;
     padding-bottom: 10px;
     font-family: Century Gothic, serif;
 }
