@@ -12,4 +12,18 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require_tree .
+//= require ./ornery/prototype-1.7.1
+
+//= require ./ornery/physics/ornery-vec2
+//= require ./ornery/physics/ornery-matrix22
+//= require ./ornery/physics/ornery-objects
+//= require ./ornery/physics/ornery-physics
+//= require ./ornery/physics/ornery-collision
+//= require ./ornery/physics/ornery-arena
+//= require ./ornery/physics/ornery-renderer
+//= require ./ornery/game
+
+//= require ./main_slideshow
+//= require ./slides.jquery.js
+
+

@@ -22,6 +22,8 @@ end
 
 gem 'jquery-rails'
 
+#gem 'therubyracer'
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
@@ -39,5 +41,6 @@ gem 'jquery-rails'
 #
 
 # used for a javascript interpreter
-gem 'execjs'
+#gem 'execjs'
 #gem 'therubyracer'
+#gem 'libv8', '3.3.10.4'

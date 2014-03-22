@@ -2,9 +2,11 @@
 <html>
 <head>
   <title>bauEric</title>
+  <!-- This site is administered by Eric Bauer. Please send inquiries to eric@baueric.com -->
   <%= stylesheet_link_tag "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
+  <%= yield :head %>
 </head>
 <body>
 
@@ -32,8 +34,8 @@
     </div>
   </div>
   <div class="below_nav_expander" id="projects_expander">
-    Links to personal projects. I'm still working on this...
-    <!--<%= link_to 'Physics Engine', 'ornery_objects' %>-->
+
+    <%= link_to 'JavaScript Physics Engine', 'ornery_objects' %>
     <!--<br/>-->
     <!--<%= link_to 'Android App', 'android_app' %>-->
   </div>
@@ -44,6 +46,7 @@
     <%= yield %>
   </div>
   <div id="footer">
+    <%= link_to image_tag("stackoverflow-25-black.png", :class => 'footer_icon', :id => 'stackoverflow_icon'), "http://stackoverflow.com/users/2847310/baueric", :title => 'Stackoverflow', :rel => 'tooltip' %>
     <%= link_to image_tag("GitHub_logo_small.png", :class => 'footer_icon', :id => 'github_icon'), "https://github.com/baueric/", :title => 'GitHub', :rel => 'tooltip' %>
     <%= link_to image_tag("Facebook_logo.png", :class => 'footer_icon', :id => 'facebook_icon'), "http://www.facebook.com/ericbauer", :title => 'Facebook', :rel => 'tooltip' %>
     <%= link_to image_tag("Linkedin_logo_small.png", :class => 'footer_icon', :id => 'linkedin_icon'), "http://www.linkedin.com/profile/view?id=97501511", :title => 'LinkedIn', :rel => 'tooltip' %>

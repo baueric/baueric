@@ -1,7 +1,7 @@
 <div id="resume_container">
 
   <div class="resume_title">
-    Eric Bauer
+    <div class="resume_title_firstname">Eric</div><div class="resume_title_lastname">Bauer</div>
 
     <div class="resume_job_title">
       Software Engineer
@@ -9,7 +9,7 @@
   </div>
   <div class="resume_institution">
     <div class="resume_section_description">Employment</div>
-    <%= link_to "Foliage, Inc.", 'http://www.foliage.com' %>
+    <%= link_to 'Foliage, Inc.', 'http://www.foliage.com', :class => 'resume_link' %>
 
     <div class="resume_parens">
       (2008 - present)
@@ -17,8 +17,8 @@
 
     <!--BioScale project-->
     <div class="resume_project">
-      <div class="resume_section_description">Consultant</div>
-      BioScale: <%= link_to "ViBE", 'http://bioscale.com/products' %> Protein Analyzer
+      <!--<div class="resume_section_description">Consultant</div>-->
+      BioScale: <%= link_to "ViBE", 'http://bioscale.com/products', :class => 'resume_link' %> Protein Analyzer
       <div class="resume_project_bullet">
         <div class="resume_project_bullet_indicator"></div>
         <div class="resume_bold_text">Java SWING</div> UI work on Windows. Developed <div class="resume_bold_text">JFreeChart</div> graphs and <div class="resume_bold_text">NetBeans</div> wizards.
@@ -39,8 +39,8 @@
 
     <!--MRx project-->
     <div class="resume_project">
-      <div class="resume_section_description">Consultant</div>
-      Philips Medical: <%= link_to "MRx HeartStart", 'http://www.youtube.com/watch?feature=player_detailpage&v=Cepyps1vwwc#t=111s' %> monitor/defibrillator
+      <!--<div class="resume_section_description">Consultant</div>-->
+      Philips Medical: <%= link_to "MRx HeartStart", 'http://www.youtube.com/watch?feature=player_detailpage&v=Cepyps1vwwc#t=111s', :class => 'resume_link' %> monitor/defibrillator
       <div class="resume_project_bullet">
         <div class="resume_project_bullet_indicator"></div>
         Adding new features to legacy <div class="resume_bold_text">C++</div> code. Added <div class="resume_bold_text">TCP/IP</div> networking functionality, updated event handling, and more.
@@ -51,7 +51,7 @@
       </div>
       <div class="resume_project_bullet">
         <div class="resume_project_bullet_indicator"></div>
-        Awarded a client service <%= link_to "gold award", 'https://lh3.googleusercontent.com/-wtXe3H68p-U/TgTKH94fEwI/AAAAAAAAjcE/XdNCS9ygJ90/s800/IMG_5397.JPG' %> by Foliage for work on the MRx.
+        Awarded a client service <%= link_to "gold award", 'https://lh3.googleusercontent.com/-wtXe3H68p-U/TgTKH94fEwI/AAAAAAAAjcE/XdNCS9ygJ90/s800/IMG_5397.JPG', :class => 'resume_link' %> by Foliage for work on the MRx.
       </div>
       <div class="resume_project_bullet">
         <div class="resume_project_bullet_indicator"></div>
@@ -61,8 +61,8 @@
 
     <!--Z1 project-->
     <div class="resume_project">
-      <div class="resume_section_description">Consultant</div>
-      Gerber Technology: <%= link_to "Z1 Cutter", 'http://www.gerbertechnology.com/en-us/solutions/aerospace/plycutting/gerbercutterz1.aspx' %>
+      <!--<div class="resume_section_description">Consultant</div>-->
+      Gerber Technology: <%= link_to "Z1 Cutter", 'http://www.gerbertechnology.com/en-us/solutions/aerospace/plycutting/gerbercutterz1.aspx', :class => 'resume_link' %>
       <div class="resume_project_bullet">
         <div class="resume_project_bullet_indicator"></div>
         <div class="resume_bold_text">.NET 3.5 C#</div> Windows application. Created <div class="resume_bold_text">WPF</div> UI elements for controlling the system. Wrote assorted business logic code including job queueing, error management, work-flow control, and more.
@@ -73,7 +73,7 @@
       </div>
       <div class="resume_project_bullet">
         <div class="resume_project_bullet_indicator"></div>
-        Awarded a client service <%= link_to "gold award", 'https://lh3.googleusercontent.com/-693plTJ6v7s/TgTKDN8ShOI/AAAAAAAAjbw/B2NT6dOwe6M/s800/IMG_5396.JPG' %> by Foliage for work on the Z1.
+        Awarded a client service <%= link_to "gold award", 'https://lh3.googleusercontent.com/-693plTJ6v7s/TgTKDN8ShOI/AAAAAAAAjbw/B2NT6dOwe6M/s800/IMG_5396.JPG', :class => 'resume_link' %> by Foliage for work on the Z1.
       </div>
       <div class="resume_project_bullet">
         <div class="resume_project_bullet_indicator"></div>
@@ -83,8 +83,8 @@
 
     <!--Polycold project-->
     <div class="resume_project">
-      <div class="resume_section_description">Consultant</div>
-      Brooks Automation: <%= link_to "PolyCold", 'http://www.brooks.com/products/vacuum-solutions/cryochillers-cryocoolers/xc-cryochillers' %> Cryogenic Cooler
+      <!--<div class="resume_section_description">Consultant</div>-->
+      Brooks Automation: <%= link_to "PolyCold", 'http://www.brooks.com/products/cryopumps-cryochillers/cryochillers/maxcool-cryochillers', :class => 'resume_link' %> Cryogenic Cooler
       <div class="resume_project_bullet">
         <div class="resume_project_bullet_indicator"></div>
         <div class="resume_bold_text">C++</div> firmware development. Wrote assorted business logic and infrastructure including custom cooling curves, smart trend analysis and self diagnostics. Controlled through an attached LCD display. Runs in <div class="resume_bold_text">Windows CE</div> on an ATMEL micro-controller.
@@ -110,7 +110,7 @@
       MS in Software Engineering
       <div class="resume_project_bullet">
         <div class="resume_project_bullet_indicator"></div>
-        <%= link_to "MS in Software Engineering  - Computer Science Track", 'http://www.drexel.com/online-degrees/engineering-degrees/ms-se-cs/curriculum.aspx' %>
+        <%= link_to "MS in Software Engineering  - Computer Science Track", 'http://www.drexel.com/online-degrees/engineering-degrees/ms-se-cs/curriculum.aspx', :class => 'resume_link' %>
       </div>
       <div class="resume_project_bullet">
         <div class="resume_project_bullet_indicator"></div>
@@ -179,7 +179,7 @@
 
       <!--program information -->
       <div class="resume_project">
-        <%= link_to "Personal Website", 'http://www.baueric.com' %>
+        <%= link_to "Personal Website", 'http://www.baueric.com', :class => 'resume_link' %>
         <div class="resume_project_bullet">
           <div class="resume_project_bullet_indicator"></div>
           <div class="resume_bold_text">Ruby on Rails</div> framework with <div class="resume_bold_text">JavaScript/jQuery</div> animations.
@@ -190,7 +190,7 @@
         </div>
         <div class="resume_project_bullet">
           <div class="resume_project_bullet_indicator"></div>
-          Source code for the website is publically available on <%= link_to "GitHub", 'https://github.com/baueric/baueric' %>.
+          Source code for the website is publically available on <%= link_to "GitHub", 'https://github.com/baueric/baueric', :class => 'resume_link' %>.
         </div>
       </div>
 
@@ -199,7 +199,15 @@
         Interests
         <div class="resume_project_bullet">
           <div class="resume_project_bullet_indicator"></div>
-          Astronomy and physics; science and space magazines.
+          Astronomy and physics - Space and Science magazines.
+        </div>
+        <div class="resume_project_bullet">
+          <div class="resume_project_bullet_indicator"></div>
+          Photography and graphic design.
+        </div>
+        <div class="resume_project_bullet">
+          <div class="resume_project_bullet_indicator"></div>
+          Transportation technology - electric and self-driving vehicles.
         </div>
         <div class="resume_project_bullet">
           <div class="resume_project_bullet_indicator"></div>

@@ -1,8 +1,11 @@
 
 
 <script>
-    $(function(){
-        $('#slides').slides({
+
+    var $j = jQuery.noConflict();
+
+    $j(function(){
+        $j('#slides').slides({
             preload: false,
             play: 6000,
             pause: 6000,
@@ -24,7 +27,7 @@
         // set the number of rows of pagination dots
         var num_rows = 1;
 
-        var num_pics = $('.slideshow_caption').length;
+        var num_pics = $j('.slideshow_caption').length;
 
         var width_mult = null;
         if (num_rows == 1) {
@@ -36,7 +39,7 @@
         }
 
         var width = width_mult * num_pics;
-        $('.pagination').css('width', width + 'px');
+        $j('.pagination').css('width', width + 'px');
     });
 
 </script>
@@ -197,10 +200,10 @@
     </div>
 
     <!--Jon and Kim Haleakala-->
-    <div style="background-image: url(https://lh6.googleusercontent.com/-SKU3jwDILec/UOiNZ7ISm1I/AAAAAAAA4CY/YiodlG4ROKk/s1000/P1010884.JPG);"
+    <div style="background-image: url(https://lh4.googleusercontent.com/-gAQbQtIOhHc/UiEZ95i_bxI/AAAAAAABARA/m-pZFcRSCPY/s1000/IMG_2750.JPG);"
          onmouseover="mouse_over_image(img19_caption)" onmouseout="mouse_out_image(img19_caption)">
       <p class="slideshow_caption" id="img19_caption" >
-        Maui, Hawaii
+        Tanga, Tanzania
       </p>
 
     </div>
@@ -251,19 +254,19 @@
     </div>
 
     <!--Covered bridge white forest-->
-    <div style="background-image: url(https://lh3.googleusercontent.com/-KY-7MV94_EQ/UOiRkrQYSjI/AAAAAAAA4Cw/_KcfOqvchzg/s1000/IMG_3883.JPG);"
+    <div style="background-image: url(https://lh3.googleusercontent.com/-H0gKkxdE9h8/UiEa6rengqI/AAAAAAABARg/H1EaEOQJFsY/s1000/IMG_3584.JPG);"
          onmouseover="mouse_over_image(img25_caption)" onmouseout="mouse_out_image(img25_caption)">
       <p class="slideshow_caption" id="img25_caption" >
-        White Mountain National Forest, NH
+        Bryant Pond, ME
       </p>
 
     </div>
 
     <!--Muddy feet-->
-    <div style="background-image: url(https://lh6.googleusercontent.com/-9Sp5_gyjmPg/UOh2rtAfA3I/AAAAAAAA4EM/wVd0x5XOG8s/s1000/IMG_4888.JPG);"
+    <div style="background-image: url(https://lh3.googleusercontent.com/-35nVFXGZi_k/UiEWXsP_icI/AAAAAAABAQk/jDkgCVDzovg/s1000/IMG_2453.JPG);"
          onmouseover="mouse_over_image(img26_caption)" onmouseout="mouse_out_image(img26_caption)">
       <p class="slideshow_caption" id="img26_caption" >
-        Oahu, Hawaii
+        Lushoto, Tanzania
       </p>
 
     </div>
