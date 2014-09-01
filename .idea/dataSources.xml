@@ -4,7 +4,7 @@
     <data-source source="LOCAL" name="Rails baueric: development" uuid="cc3b90ca-8a5b-4adb-9358-0893c15c277a">
       <driver-ref>sqlite.xerial</driver-ref>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:V:\External WesternDigital 256gb HD\Failed Hard drive 1-8-2014\RubymineProjects\baueric\db\development.sqlite3</jdbc-url>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/development.sqlite3</jdbc-url>
       <libraries>
         <library>
           <url>file://$USER_HOME$/.RubyMine40/config/jdbc-drivers/xerial-sqlite-license.txt</url>

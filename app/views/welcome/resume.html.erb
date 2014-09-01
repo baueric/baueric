@@ -1,24 +1,68 @@
+
+
 <div id="resume_container">
 
-  <div class="resume_title">
+  <div class="resume_title" id="name">
     <div class="resume_title_firstname">Eric</div><div class="resume_title_lastname">Bauer</div>
 
     <div class="resume_job_title">
-      Software Engineer
+      <div id="job_title">
+        <div>
+          Software Engineer
+        </div>
+        <div>
+          Hong Kong
+        </div>
+      </div>
     </div>
   </div>
-  <div class="resume_institution">
+
+  <div class="resume_institution" id="foliage_section">
     <div class="resume_section_description">Employment</div>
     <%= link_to 'Foliage, Inc.', 'http://www.foliage.com', :class => 'resume_link' %>
 
     <div class="resume_parens">
-      (2008 - present)
+      (2008 - 2014)
     </div>
 
-    <!--BioScale project-->
+    <div class="resume_project_bullet">
+      Projects listed below are ~1-2 year engagements with clients of Foliage (most recent first).
+    </div>
+
+    <div class="resume_project_bullet">
+      <div class="resume_parens">
+        Client company names are omitted to adhere with the confidentiality agreement.
+      </div>
+    </div>
+
     <div class="resume_project">
       <!--<div class="resume_section_description">Consultant</div>-->
-      BioScale: <%= link_to "ViBE", 'http://bioscale.com/products', :class => 'resume_link' %> Protein Analyzer
+      Client-Server Windows Application
+      <div class="resume_project_bullet">
+        <div class="resume_project_bullet_indicator"></div>
+        <div class="resume_bold_text">WPF</div> client application connects with server running <div class="resume_bold_text">WCF</div> web services via HTTP requests.
+      </div>
+      <div class="resume_project_bullet">
+        <div class="resume_project_bullet_indicator"></div>
+        Lead the development team of three on the client side. Implemented with industry recommended <div class="resume_bold_text">MVVM</div> pattern.
+      </div>
+      <div class="resume_project_bullet">
+        <div class="resume_project_bullet_indicator"></div>
+        Custom designed features provide run-time language switching and user privilege controlled views.
+      </div>
+      <div class="resume_project_bullet">
+        <div class="resume_project_bullet_indicator"></div>
+        Received two gold awards from Foliage based on client feedback.
+      </div>
+      <div class="resume_project_bullet">
+        <div class="resume_project_bullet_indicator"></div>
+        Additional tools: <div class="resume_bold_text">MS Visual Studio, SVN</div>
+      </div>
+    </div>
+
+    <div class="resume_project">
+      <!--<div class="resume_section_description">Consultant</div>-->
+      Automated Robotic Assay Machine for Labs
       <div class="resume_project_bullet">
         <div class="resume_project_bullet_indicator"></div>
         <div class="resume_bold_text">Java SWING</div> UI work on Windows. Developed <div class="resume_bold_text">JFreeChart</div> graphs and <div class="resume_bold_text">NetBeans</div> wizards.
@@ -37,10 +81,9 @@
       </div>
     </div>
 
-    <!--MRx project-->
     <div class="resume_project">
       <!--<div class="resume_section_description">Consultant</div>-->
-      Philips Medical: <%= link_to "MRx HeartStart", 'http://www.youtube.com/watch?feature=player_detailpage&v=Cepyps1vwwc#t=111s', :class => 'resume_link' %> monitor/defibrillator
+      Portable Heart Monitor/Defibrillator
       <div class="resume_project_bullet">
         <div class="resume_project_bullet_indicator"></div>
         Adding new features to legacy <div class="resume_bold_text">C++</div> code. Added <div class="resume_bold_text">TCP/IP</div> networking functionality, updated event handling, and more.
@@ -51,7 +94,7 @@
       </div>
       <div class="resume_project_bullet">
         <div class="resume_project_bullet_indicator"></div>
-        Awarded a client service <%= link_to "gold award", 'https://lh3.googleusercontent.com/-wtXe3H68p-U/TgTKH94fEwI/AAAAAAAAjcE/XdNCS9ygJ90/s800/IMG_5397.JPG', :class => 'resume_link' %> by Foliage for work on the MRx.
+        Received a <%= link_to "gold award", 'https://lh4.googleusercontent.com/-w72sZVN_1Vo/VAMB0V4j34I/AAAAAAABHeE/MOhK14BcpkA/s800/IMG_5397.JPG', :class => 'resume_link' %> from Foliage based on client feedback.
       </div>
       <div class="resume_project_bullet">
         <div class="resume_project_bullet_indicator"></div>
@@ -59,10 +102,9 @@
       </div>
     </div>
 
-    <!--Z1 project-->
     <div class="resume_project">
       <!--<div class="resume_section_description">Consultant</div>-->
-      Gerber Technology: <%= link_to "Z1 Cutter", 'http://www.gerbertechnology.com/en-us/solutions/aerospace/plycutting/gerbercutterz1.aspx', :class => 'resume_link' %>
+      Industrial Multi-tool Programmable Cutting Machine
       <div class="resume_project_bullet">
         <div class="resume_project_bullet_indicator"></div>
         <div class="resume_bold_text">.NET 3.5 C#</div> Windows application. Created <div class="resume_bold_text">WPF</div> UI elements for controlling the system. Wrote assorted business logic code including job queueing, error management, work-flow control, and more.
@@ -73,7 +115,7 @@
       </div>
       <div class="resume_project_bullet">
         <div class="resume_project_bullet_indicator"></div>
-        Awarded a client service <%= link_to "gold award", 'https://lh3.googleusercontent.com/-693plTJ6v7s/TgTKDN8ShOI/AAAAAAAAjbw/B2NT6dOwe6M/s800/IMG_5396.JPG', :class => 'resume_link' %> by Foliage for work on the Z1.
+        Received a <%= link_to "gold award", 'https://lh4.googleusercontent.com/-TwrmZ7VsEiQ/VAMB0fUXujI/AAAAAAABHeI/rvhfPhImLXM/s800/IMG_5396.JPG', :class => 'resume_link' %> from Foliage based on client feedback.
       </div>
       <div class="resume_project_bullet">
         <div class="resume_project_bullet_indicator"></div>
@@ -81,10 +123,9 @@
       </div>
     </div>
 
-    <!--Polycold project-->
     <div class="resume_project">
       <!--<div class="resume_section_description">Consultant</div>-->
-      Brooks Automation: <%= link_to "PolyCold", 'http://www.brooks.com/products/cryopumps-cryochillers/cryochillers/maxcool-cryochillers', :class => 'resume_link' %> Cryogenic Cooler
+      Cryogenic Cooler
       <div class="resume_project_bullet">
         <div class="resume_project_bullet_indicator"></div>
         <div class="resume_bold_text">C++</div> firmware development. Wrote assorted business logic and infrastructure including custom cooling curves, smart trend analysis and self diagnostics. Controlled through an attached LCD display. Runs in <div class="resume_bold_text">Windows CE</div> on an ATMEL micro-controller.
@@ -98,7 +139,7 @@
   </div>
 
   <!--Drexel master's-->
-  <div class="resume_institution">
+  <div class="resume_institution" id="drexel_section">
     <div class="resume_section_description">Education</div>
     Drexel University
     <div class="resume_parens">
@@ -124,7 +165,7 @@
    </div>
 
   <!--Lafayette-->
-  <div class="resume_institution">
+  <div class="resume_institution" id="lafayette_section">
     <div class="resume_section_description">Education</div>
     Lafayette College
     <div class="resume_parens">
@@ -170,7 +211,7 @@
   </div>
 
     <!--Other-->
-    <div class="resume_institution">
+    <div class="resume_institution" id="other_section">
       <div class="resume_section_description"></div>
       Other
       <div class="resume_parens">
