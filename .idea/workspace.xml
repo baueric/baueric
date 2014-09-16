@@ -1,13 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd29693d-fea8-466b-8207-76dd228023be" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/baueric.iml" afterPath="$PROJECT_DIR$/.idea/baueric.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/development.rb" afterPath="$PROJECT_DIR$/config/environments/development.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/resume.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/resume.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/welcome/resume.html.erb" afterPath="$PROJECT_DIR$/app/views/welcome/resume.html.erb" />
+    <list default="true" id="bd29693d-fea8-466b-8207-76dd228023be" name="Default" comment="More resume updates. Adding downloadable PDF">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/EricBauerResume-79d2b7cdbcb5fb078af78aecfec56adc.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/EricBauerResume.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/Facebook_logo-06fa032ed6ac9c80ba93c1e8202cabc7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/Facebook_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/GitHub_logo_small-b02df3c0ea0c8a35002cfc64b46a5435.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/GitHub_logo_small.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/Icon_large-de30da11ccbfdb5deb92ba0a1fe170d0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/Icon_large.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/Linkedin_logo-d6a91893e16eec3cab0ed2a16b2ee1a4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/Linkedin_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/Linkedin_logo_small-b3eb710c757c35b22f48ddb9dfb06521.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/Linkedin_logo_small.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/Standing_dock-f16f7f82d8d47b5f5db032afeff0f39a.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/Standing_dock.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/Youtube_logo-54c18c84b98758fb83ca2bd876915e3b.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/Youtube_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-1163e0d6d17e123a243ac54c7963295a.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-202494d260f55a77e5418f0f2c433420.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/arrow-next-e88965b8fa63d86744fe2eadb0dc43c2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/arrow-next.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/arrow-prev-a2d2ef274dc161fa8568f0358167d845.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/arrow-prev.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/github-logo-diogomelo-black-ed088e640123ddcb5d04f13896b98958.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/github-logo-diogomelo-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/loading-255007c1b9d125a1ea6675f6d5977c57.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/logo_new-d2c7f947c12613dd5c482417ea8d900f.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/logo_new.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/pagination-9a82b60c0508a5b08485d41dc412d33d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/pagination.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/pdf_icon_black-3565168960aca29630c0b2a04be08e88.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/pdf_icon_black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/rails-be8732dac73d845ac5b142c8fb5f9fb0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/rails.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/stackoverflow-25-black-081eaf72b8ebe0ecd98f3a46bae3e9c1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/stackoverflow-25-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/400.shtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/401.shtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/403.shtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/404.shtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/500.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/500.shtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-1163e0d6d17e123a243ac54c7963295a.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-202494d260f55a77e5418f0f2c433420.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/default.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/jquery.min-607da4d20a427d3c86ec6b28cdc42e7f.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/jquery.min.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/manifest.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="baueric.iws" />
@@ -60,8 +107,8 @@
           <file leaf-file-name="resume.html.erb" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/welcome/resume.html.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.44378698" vertical-offset="0" max-vertical-offset="4860">
-                  <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.295858" vertical-offset="0" max-vertical-offset="4860">
+                  <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
                   <folding>
                     <element signature="n#style#0;n#div#5;n#div#0;n#!!top" expanded="true" />
                   </folding>
@@ -946,7 +993,19 @@
       <created>1409550413680</created>
       <updated>1409550413680</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="More resume updates. Adding downloadable PDF">
+      <created>1410870316951</created>
+      <updated>1410870316951</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Adding resume PDF file">
+      <created>1410870421641</created>
+      <updated>1410870421641</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Adding missing assets">
+      <created>1410870536371</created>
+      <updated>1410870536371</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -982,6 +1041,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28399518" sideWeight="0.36597222" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15900277" sideWeight="0.37629938" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3261131" sideWeight="0.48663697" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.54632974" sideWeight="0.66805553" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903227" sideWeight="0.49359658" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15101388" sideWeight="0.227957" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17986111" sideWeight="0.6287037" order="0" side_tool="false" content_ui="combo" />
@@ -990,7 +1050,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46944445" sideWeight="0.6170678" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.54632974" sideWeight="0.66805553" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1040,7 +1099,10 @@
     <MESSAGE value="Updates to website. Version 1.0 nearly finished." />
     <MESSAGE value="Some cosmetic updates. Fixed photo sizing. Added main page intro animation. Added multiple slidedown feature." />
     <MESSAGE value="Updates to Resume." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updates to Resume." />
+    <MESSAGE value="More resume updates. Adding downloadable PDF" />
+    <MESSAGE value="Adding resume PDF file" />
+    <MESSAGE value="Adding missing assets" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding missing assets" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1391,8 +1453,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/welcome/resume.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44378698" vertical-offset="0" max-vertical-offset="4860">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.295858" vertical-offset="0" max-vertical-offset="4860">
+          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
           <folding>
             <element signature="n#style#0;n#div#5;n#div#0;n#!!top" expanded="true" />
           </folding>
