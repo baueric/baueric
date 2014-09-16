@@ -9,37 +9,46 @@
 }
 
 .resume_title {
-    font-family: Times New Roman;
-    float: left;
+    display: inline;
     font-size: 54px;
     padding: 0px 0px 0px 15px;
-    margin: 0px 0px -10px 0px;
 }
 
 .resume_title_lastname {
     display: inline;
+    font-family: Times New Roman;
     color: #8c6f6a;
 }
 .resume_title_firstname {
     display: inline;
+    font-family: Times New Roman;
     color: #50584f;
 }
 
 .resume_job_title {
-    display: inline;
-    float: right;
-    text-align: right;
+    margin: 0px 0px 0px 6px;
+    padding: 0px 0px 1px 18px;
+    display: inline-block;
     border-left: 1px solid #000000;
-    padding: 33px 0px 0px 10px;
-    margin: 21px 0px 0px 14px;
-    font-size: 16px;
-    overflow:hidden;
+}
+
+.resume_job_title_text {
+    font-size: 15px;
+    text-align: left;
+    overflow: hidden;
     white-space: nowrap;
+    margin: -2px;
+    padding: 1px 0px 0px 0px;
+}
+
+.resume_pdf_link {
+    display: block;
+    float: right;
+    margin: 10px 100px 0px 0px;
+    width: 40px;
 }
 
 .resume_institution {
-    float: left;
-    clear: both;
     font-size: 24px;
     margin: 35px 0px 0px 40px;
     padding: 0px 10px 0px 10px;

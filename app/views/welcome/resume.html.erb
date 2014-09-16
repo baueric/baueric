@@ -1,265 +1,319 @@
-
-
 <div id="resume_container">
 
-  <div class="resume_title" id="name">
-    <div class="resume_title_firstname">Eric</div><div class="resume_title_lastname">Bauer</div>
+<div class="resume_title">
+  <div class="resume_title_firstname">Eric</div><div
+       class="resume_title_lastname">Bauer</div>
 
-    <div class="resume_job_title">
-      <div id="job_title">
-        <div>
-          Software Engineer
-        </div>
-        <div>
-          Hong Kong
-        </div>
-      </div>
+  <div class="resume_job_title">
+    <div class="resume_job_title_text">
+      <div class="resume_parens">eric@baueric.com</div>
+    </div>
+    <div class="resume_job_title_text">
+      Software Engineer - Hong Kong
+    </div>
+  </div>
+</div>
+
+<%= link_to image_tag("pdf_icon_black.png", :class => 'resume_pdf_link'), asset_path("EricBauerResume.pdf"), :title => 'Download PDF', :rel => 'tooltip' %>
+
+
+<div class="resume_institution" id="foliage_section">
+  <div class="resume_section_description">Employment</div>
+  <%= link_to 'Foliage, Inc.', 'http://www.foliage.com', :class => 'resume_link' %>
+
+  <div class="resume_parens">
+    (2008 - 2014)
+  </div>
+
+  <div class="resume_project_bullet">
+    Projects are ~1-2 year engagements with clients of Foliage (most recent listed first).
+  </div>
+
+  <div class="resume_project_bullet">
+    <div class="resume_parens">
+      Client company names are omitted to adhere with the confidentiality agreement.
     </div>
   </div>
 
-  <div class="resume_institution" id="foliage_section">
-    <div class="resume_section_description">Employment</div>
-    <%= link_to 'Foliage, Inc.', 'http://www.foliage.com', :class => 'resume_link' %>
-
-    <div class="resume_parens">
-      (2008 - 2014)
-    </div>
-
+  <div class="resume_project">
+    <!--<div class="resume_section_description">Consultant</div>-->
+    Client-Server Windows Application
     <div class="resume_project_bullet">
-      Projects listed below are ~1-2 year engagements with clients of Foliage (most recent first).
+      <div class="resume_project_bullet_indicator"></div>
+      <div class="resume_bold_text">WPF</div>
+      client application connects with server running
+      <div class="resume_bold_text">WCF</div>
+      web services via HTTP requests.
     </div>
-
     <div class="resume_project_bullet">
-      <div class="resume_parens">
-        Client company names are omitted to adhere with the confidentiality agreement.
-      </div>
+      <div class="resume_project_bullet_indicator"></div>
+      Lead the development team of three on the client side. Implemented with industry recommended
+      <div class="resume_bold_text">MVVM</div>
+      pattern.
     </div>
-
-    <div class="resume_project">
-      <!--<div class="resume_section_description">Consultant</div>-->
-      Client-Server Windows Application
-      <div class="resume_project_bullet">
-        <div class="resume_project_bullet_indicator"></div>
-        <div class="resume_bold_text">WPF</div> client application connects with server running <div class="resume_bold_text">WCF</div> web services via HTTP requests.
-      </div>
-      <div class="resume_project_bullet">
-        <div class="resume_project_bullet_indicator"></div>
-        Lead the development team of three on the client side. Implemented with industry recommended <div class="resume_bold_text">MVVM</div> pattern.
-      </div>
-      <div class="resume_project_bullet">
-        <div class="resume_project_bullet_indicator"></div>
-        Custom designed features provide run-time language switching and user privilege controlled views.
-      </div>
-      <div class="resume_project_bullet">
-        <div class="resume_project_bullet_indicator"></div>
-        Received two gold awards from Foliage based on client feedback.
-      </div>
-      <div class="resume_project_bullet">
-        <div class="resume_project_bullet_indicator"></div>
-        Additional tools: <div class="resume_bold_text">MS Visual Studio, SVN</div>
-      </div>
+    <div class="resume_project_bullet">
+      <div class="resume_project_bullet_indicator"></div>
+      Run-time language switching and user security dynamic views.
     </div>
-
-    <div class="resume_project">
-      <!--<div class="resume_section_description">Consultant</div>-->
-      Automated Robotic Assay Machine for Labs
-      <div class="resume_project_bullet">
-        <div class="resume_project_bullet_indicator"></div>
-        <div class="resume_bold_text">Java SWING</div> UI work on Windows. Developed <div class="resume_bold_text">JFreeChart</div> graphs and <div class="resume_bold_text">NetBeans</div> wizards.
-      </div>
-      <div class="resume_project_bullet">
-        <div class="resume_project_bullet_indicator"></div>
-        <div class="resume_bold_text">C++/Qt</div> firmware work on <div class="resume_bold_text">Ubuntu</div>. Developed hardware diagnostics infrastructure and custom logging.
-      </div>
-      <div class="resume_project_bullet">
-        <div class="resume_project_bullet_indicator"></div>
-        <div class="resume_bold_text">Ruby on Rails</div> application hosted on Ubuntu. App provides remote access to hardware.
-      </div>
-      <div class="resume_project_bullet">
-        <div class="resume_project_bullet_indicator"></div>
-        Additional tools: <div class="resume_bold_text">Netbeans, Eclipse, SVN, cmake, log4j, log4cplus, SQL, DBUS, Clojure</div>
-      </div>
+    <div class="resume_project_bullet">
+      <div class="resume_project_bullet_indicator"></div>
+      Received two gold awards from Foliage based on client feedback.
     </div>
-
-    <div class="resume_project">
-      <!--<div class="resume_section_description">Consultant</div>-->
-      Portable Heart Monitor/Defibrillator
-      <div class="resume_project_bullet">
-        <div class="resume_project_bullet_indicator"></div>
-        Adding new features to legacy <div class="resume_bold_text">C++</div> code. Added <div class="resume_bold_text">TCP/IP</div> networking functionality, updated event handling, and more.
-      </div>
-      <div class="resume_project_bullet">
-        <div class="resume_project_bullet_indicator"></div>
-        Class III medical development processes including design, code reviews and testing.
-      </div>
-      <div class="resume_project_bullet">
-        <div class="resume_project_bullet_indicator"></div>
-        Received a <%= link_to "gold award", 'https://lh4.googleusercontent.com/-w72sZVN_1Vo/VAMB0V4j34I/AAAAAAABHeE/MOhK14BcpkA/s800/IMG_5397.JPG', :class => 'resume_link' %> from Foliage based on client feedback.
-      </div>
-      <div class="resume_project_bullet">
-        <div class="resume_project_bullet_indicator"></div>
-        Additional tools: <div class="resume_bold_text">Eclipse, ClearCase, Coverity, Rhapsody</div>
-      </div>
+    <div class="resume_project_bullet">
+      <div class="resume_project_bullet_indicator"></div>
+      Additional tools:
+      <div class="resume_bold_text">MS Visual Studio, SVN</div>
     </div>
+  </div>
 
-    <div class="resume_project">
-      <!--<div class="resume_section_description">Consultant</div>-->
-      Industrial Multi-tool Programmable Cutting Machine
-      <div class="resume_project_bullet">
-        <div class="resume_project_bullet_indicator"></div>
-        <div class="resume_bold_text">.NET 3.5 C#</div> Windows application. Created <div class="resume_bold_text">WPF</div> UI elements for controlling the system. Wrote assorted business logic code including job queueing, error management, work-flow control, and more.
-      </div>
-      <div class="resume_project_bullet">
-        <div class="resume_project_bullet_indicator"></div>
-        Wrote <div class="resume_bold_text">C++</div> code for an LCD control panel running on <div class="resume_bold_text">Windows CE</div>. The display unit communicates with the hardware allowing manual motor control.
-      </div>
-      <div class="resume_project_bullet">
-        <div class="resume_project_bullet_indicator"></div>
-        Received a <%= link_to "gold award", 'https://lh4.googleusercontent.com/-TwrmZ7VsEiQ/VAMB0fUXujI/AAAAAAABHeI/rvhfPhImLXM/s800/IMG_5396.JPG', :class => 'resume_link' %> from Foliage based on client feedback.
-      </div>
-      <div class="resume_project_bullet">
-        <div class="resume_project_bullet_indicator"></div>
-        Additional tools: <div class="resume_bold_text">MS VisualStudio & TFS, WCF, log4net</div>
-      </div>
+  <div class="resume_project">
+    <!--<div class="resume_section_description">Consultant</div>-->
+    Automated Robotic Assay Machine for Labs
+    <div class="resume_project_bullet">
+      <div class="resume_project_bullet_indicator"></div>
+      <div class="resume_bold_text">Java SWING</div>
+      UI work on Windows. Developed
+      <div class="resume_bold_text">JFreeChart</div>
+      graphs and
+      <div class="resume_bold_text">NetBeans</div>
+      wizards.
     </div>
+    <div class="resume_project_bullet">
+      <div class="resume_project_bullet_indicator"></div>
+      <div class="resume_bold_text">C++/Qt</div>
+      firmware work on
+      <div class="resume_bold_text">Ubuntu</div>
+      . Developed hardware diagnostics infrastructure and custom logging.
+    </div>
+    <div class="resume_project_bullet">
+      <div class="resume_project_bullet_indicator"></div>
+      <div class="resume_bold_text">Ruby on Rails</div>
+      application hosted on Ubuntu. App provides remote access to hardware.
+    </div>
+    <div class="resume_project_bullet">
+      <div class="resume_project_bullet_indicator"></div>
+      Additional tools:
+      <div class="resume_bold_text">Netbeans, Eclipse, SVN, cmake, log4j, log4cplus, SQL, DBUS, Clojure</div>
+    </div>
+  </div>
 
-    <div class="resume_project">
-      <!--<div class="resume_section_description">Consultant</div>-->
-      Cryogenic Cooler
-      <div class="resume_project_bullet">
-        <div class="resume_project_bullet_indicator"></div>
-        <div class="resume_bold_text">C++</div> firmware development. Wrote assorted business logic and infrastructure including custom cooling curves, smart trend analysis and self diagnostics. Controlled through an attached LCD display. Runs in <div class="resume_bold_text">Windows CE</div> on an ATMEL micro-controller.
-      </div>
-      <div class="resume_project_bullet">
-        <div class="resume_project_bullet_indicator"></div>
-        Additional tools: <div class="resume_bold_text">MS VisualStudio, VSS, log4cpp</div>
-      </div>
+  <div class="resume_project">
+    <!--<div class="resume_section_description">Consultant</div>-->
+    Portable Heart Monitor/Defibrillator
+    <div class="resume_project_bullet">
+      <div class="resume_project_bullet_indicator"></div>
+      Adding new features to legacy
+      <div class="resume_bold_text">C++</div>
+      code. Added
+      <div class="resume_bold_text">TCP/IP</div>
+      networking functionality, updated event handling, and more.
+    </div>
+    <div class="resume_project_bullet">
+      <div class="resume_project_bullet_indicator"></div>
+      Class III medical development processes including design, code reviews and testing.
+    </div>
+    <div class="resume_project_bullet">
+      <div class="resume_project_bullet_indicator"></div>
+      Received
+      a <%= link_to "gold award", 'https://lh4.googleusercontent.com/-w72sZVN_1Vo/VAMB0V4j34I/AAAAAAABHeE/MOhK14BcpkA/s800/IMG_5397.JPG', :class => 'resume_link' %>
+      from Foliage based on client feedback.
+    </div>
+    <div class="resume_project_bullet">
+      <div class="resume_project_bullet_indicator"></div>
+      Additional tools:
+      <div class="resume_bold_text">Eclipse, ClearCase, Coverity, Rhapsody</div>
+    </div>
+  </div>
+
+  <div class="resume_project">
+    <!--<div class="resume_section_description">Consultant</div>-->
+    Industrial Multi-tool Programmable Cutting Machine
+    <div class="resume_project_bullet">
+      <div class="resume_project_bullet_indicator"></div>
+      <div class="resume_bold_text">.NET 3.5 C#</div>
+      Windows application. Created
+      <div class="resume_bold_text">WPF</div>
+      UI elements for controlling the system. Wrote assorted business logic code including job queueing, error
+      management, work-flow control, and more.
+    </div>
+    <div class="resume_project_bullet">
+      <div class="resume_project_bullet_indicator"></div>
+      Wrote
+      <div class="resume_bold_text">C++</div>
+      code for an LCD control panel running on
+      <div class="resume_bold_text">Windows CE</div>
+      . The display unit communicates with the hardware allowing manual motor control.
+    </div>
+    <div class="resume_project_bullet">
+      <div class="resume_project_bullet_indicator"></div>
+      Received
+      a <%= link_to "gold award", 'https://lh4.googleusercontent.com/-TwrmZ7VsEiQ/VAMB0fUXujI/AAAAAAABHeI/rvhfPhImLXM/s800/IMG_5396.JPG', :class => 'resume_link' %>
+      from Foliage based on client feedback.
+    </div>
+    <div class="resume_project_bullet">
+      <div class="resume_project_bullet_indicator"></div>
+      Additional tools:
+      <div class="resume_bold_text">MS VisualStudio & TFS, WCF, log4net</div>
+    </div>
+  </div>
+
+  <div class="resume_project">
+    <!--<div class="resume_section_description">Consultant</div>-->
+    Cryogenic Cooler
+    <div class="resume_project_bullet">
+      <div class="resume_project_bullet_indicator"></div>
+      <div class="resume_bold_text">C++</div>
+      firmware development. Wrote assorted business logic and infrastructure including custom cooling curves, smart
+      trend analysis and self diagnostics. Controlled through an attached LCD display. Runs in
+      <div class="resume_bold_text">Windows CE</div>
+      on an ATMEL micro-controller.
+    </div>
+    <div class="resume_project_bullet">
+      <div class="resume_project_bullet_indicator"></div>
+      Additional tools:
+      <div class="resume_bold_text">MS VisualStudio, VSS, log4cpp</div>
+    </div>
+  </div>
+
+</div>
+
+<!--Drexel master's-->
+<div class="resume_institution" id="drexel_section">
+  <div class="resume_section_description">Education</div>
+  Drexel University
+  <div class="resume_parens">
+    (2010 - present)
+  </div>
+
+  <!--program information -->
+  <div class="resume_project">
+    MS in Software Engineering
+    <div class="resume_project_bullet">
+      <div class="resume_project_bullet_indicator"></div>
+      <%= link_to "MS in Software Engineering  - Computer Science Track", 'http://www.drexel.com/online-degrees/engineering-degrees/ms-se-cs/curriculum.aspx', :class => 'resume_link' %>
+    </div>
+    <div class="resume_project_bullet">
+      <div class="resume_project_bullet_indicator"></div>
+      Online program with virtual classrooms and team collaboration. Majority of work done in
+      <div class="resume_bold_text">Java</div>
+      on
+      <div class="resume_bold_text">Linux</div>
+      .
+    </div>
+    <div class="resume_project_bullet">
+      <div class="resume_project_bullet_indicator"></div>
+      8/15 courses completed. GPA: 3.83
+    </div>
+  </div>
+</div>
+
+<!--Lafayette-->
+<div class="resume_institution" id="lafayette_section">
+  <div class="resume_section_description">Education</div>
+  Lafayette College
+  <div class="resume_parens">
+    (2004 - 2008)
+  </div>
+
+  <!--undergrad information -->
+  <div class="resume_project">
+    BS in Electrical & Computer Engineering
+    <div class="resume_project_bullet">
+      <div class="resume_project_bullet_indicator"></div>
+      Strongly focused on EE concepts with a minor in computer science. GPA: 3.36
+    </div>
+    <div class="resume_project_bullet">
+      <div class="resume_project_bullet_indicator"></div>
+      Murray G. Clay ’30 Award – Presented to a student who presents an outstanding academic record in engineering or
+      science.
+    </div>
+    <div class="resume_project_bullet">
+      <div class="resume_project_bullet_indicator"></div>
+      Peer tutor program: one-on-one tutoring for underclassman in physics and computer science.
+    </div>
+    <div class="resume_project_bullet">
+      <div class="resume_project_bullet_indicator"></div>
+      Semester Abroad – Vesalius College, Brussels, Belgium
+    </div>
+    <div class="resume_project_bullet">
+      <div class="resume_project_bullet_indicator"></div>
+      Tools:
+      <div class="resume_bold_text">MATLAB, Linux (fedora), C++, Java,</div>
+    </div>
+  </div>
+
+  <!--internship information -->
+  <div class="resume_project">
+    <div class="resume_section_description">Intern</div>
+    Lehigh University: Signals And Communications Research
+    <div class="resume_project_bullet">
+      <div class="resume_project_bullet_indicator"></div>
+      Signals and communication research in the Electrical Engineering department. Wrote
+      <div class="resume_bold_text">C++</div>
+      and
+      <div class="resume_bold_text">Matlab</div>
+      routines to numerically prove the power efficiency improvements of a new transmission algorithm. Contributions to
+      the <%= link_to "publication", 'http://ieeexplore.ieee.org/xpl/freeabs_all.jsp?arnumber=4518157' %> (uncredited).
     </div>
 
   </div>
 
-  <!--Drexel master's-->
-  <div class="resume_institution" id="drexel_section">
-    <div class="resume_section_description">Education</div>
-    Drexel University
-    <div class="resume_parens">
-      (2010 - present)
-    </div>
+</div>
 
-    <!--program information -->
-    <div class="resume_project">
-      MS in Software Engineering
-      <div class="resume_project_bullet">
-        <div class="resume_project_bullet_indicator"></div>
-        <%= link_to "MS in Software Engineering  - Computer Science Track", 'http://www.drexel.com/online-degrees/engineering-degrees/ms-se-cs/curriculum.aspx', :class => 'resume_link' %>
-      </div>
-      <div class="resume_project_bullet">
-        <div class="resume_project_bullet_indicator"></div>
-        Online program with virtual classrooms and team collaboration. Majority of work done in <div class="resume_bold_text">Java</div> on <div class="resume_bold_text">Linux</div>.
-      </div>
-      <div class="resume_project_bullet">
-        <div class="resume_project_bullet_indicator"></div>
-        8/15 courses completed. GPA: 3.83
-      </div>
-    </div>
-   </div>
-
-  <!--Lafayette-->
-  <div class="resume_institution" id="lafayette_section">
-    <div class="resume_section_description">Education</div>
-    Lafayette College
-    <div class="resume_parens">
-      (2004 - 2008)
-    </div>
-
-    <!--undergrad information -->
-    <div class="resume_project">
-      BS in Electrical & Computer Engineering
-      <div class="resume_project_bullet">
-        <div class="resume_project_bullet_indicator"></div>
-        Strongly focused on EE concepts with a minor in computer science. GPA: 3.36
-      </div>
-      <div class="resume_project_bullet">
-        <div class="resume_project_bullet_indicator"></div>
-        Murray G. Clay ’30 Award – Presented to a student who presents an outstanding academic record in engineering or science.
-      </div>
-      <div class="resume_project_bullet">
-        <div class="resume_project_bullet_indicator"></div>
-        Peer tutor program: one-on-one tutoring for underclassman in physics and computer science.
-      </div>
-      <div class="resume_project_bullet">
-        <div class="resume_project_bullet_indicator"></div>
-        Semester Abroad – Vesalius College, Brussels, Belgium
-      </div>
-      <div class="resume_project_bullet">
-        <div class="resume_project_bullet_indicator"></div>
-        Tools: <div class="resume_bold_text">MATLAB, Linux (fedora), C++, Java, </div>
-      </div>
-    </div>
-
-    <!--internship information -->
-    <div class="resume_project">
-      <div class="resume_section_description">Intern</div>
-      Lehigh University: Signals And Communications Research
-      <div class="resume_project_bullet">
-        <div class="resume_project_bullet_indicator"></div>
-        Signals and communication research in the Electrical Engineering department. Wrote <div class="resume_bold_text">C++</div> and <div class="resume_bold_text">Matlab</div> routines to numerically prove the power efficiency improvements of a new transmission algorithm. Contributions to the <%= link_to "publication", 'http://ieeexplore.ieee.org/xpl/freeabs_all.jsp?arnumber=4518157' %> (uncredited).
-      </div>
-
-    </div>
+<!--Other-->
+<div class="resume_institution" id="other_section">
+  <div class="resume_section_description"></div>
+  Other
+  <div class="resume_parens">
 
   </div>
 
-    <!--Other-->
-    <div class="resume_institution" id="other_section">
-      <div class="resume_section_description"></div>
-      Other
-      <div class="resume_parens">
-
-      </div>
-
-      <!--program information -->
-      <div class="resume_project">
-        <%= link_to "Personal Website", 'http://www.baueric.com', :class => 'resume_link' %>
-        <div class="resume_project_bullet">
-          <div class="resume_project_bullet_indicator"></div>
-          <div class="resume_bold_text">Ruby on Rails</div> framework with <div class="resume_bold_text">JavaScript/jQuery</div> animations.
-        </div>
-        <div class="resume_project_bullet">
-          <div class="resume_project_bullet_indicator"></div>
-          Custom design and code developed in spare time. Self-taught with online resources.
-        </div>
-        <div class="resume_project_bullet">
-          <div class="resume_project_bullet_indicator"></div>
-          Source code for the website is publically available on <%= link_to "GitHub", 'https://github.com/baueric/baueric', :class => 'resume_link' %>.
-        </div>
-      </div>
-
-      <!--program information -->
-      <div class="resume_project">
-        Interests
-        <div class="resume_project_bullet">
-          <div class="resume_project_bullet_indicator"></div>
-          Astronomy and physics - Space and Science magazines.
-        </div>
-        <div class="resume_project_bullet">
-          <div class="resume_project_bullet_indicator"></div>
-          Photography and graphic design.
-        </div>
-        <div class="resume_project_bullet">
-          <div class="resume_project_bullet_indicator"></div>
-          Transportation technology - electric and self-driving vehicles.
-        </div>
-        <div class="resume_project_bullet">
-          <div class="resume_project_bullet_indicator"></div>
-          Playing guitar and soccer (not at the same time).
-        </div>
-      </div>
-
+  <!--program information -->
+  <div class="resume_project">
+    <%= link_to "Personal Website", 'http://www.baueric.com', :class => 'resume_link' %>
+    <div class="resume_project_bullet">
+      <div class="resume_project_bullet_indicator"></div>
+      <div class="resume_bold_text">Ruby on Rails</div>
+      framework with
+      <div class="resume_bold_text">JavaScript/jQuery</div>
+      animations.
     </div>
-
-  <div style="clear: both;">
-
+    <div class="resume_project_bullet">
+      <div class="resume_project_bullet_indicator"></div>
+      Custom design and code developed in spare time. Self-taught with online resources.
+    </div>
+    <div class="resume_project_bullet">
+      <div class="resume_project_bullet_indicator"></div>
+      Source code for the website is publically available
+      on <%= link_to "GitHub", 'https://github.com/baueric/baueric', :class => 'resume_link' %>.
+    </div>
   </div>
+
+  <!--program information -->
+  <div class="resume_project">
+    Interests
+    <div class="resume_project_bullet">
+      <div class="resume_project_bullet_indicator"></div>
+      Astronomy and physics - Space and Science magazines.
+    </div>
+    <div class="resume_project_bullet">
+      <div class="resume_project_bullet_indicator"></div>
+      Photography and graphic design.
+    </div>
+    <div class="resume_project_bullet">
+      <div class="resume_project_bullet_indicator"></div>
+      Transportation technology - electric and self-driving vehicles.
+    </div>
+    <div class="resume_project_bullet">
+      <div class="resume_project_bullet_indicator"></div>
+      Playing guitar and soccer (not at the same time).
+    </div>
+  </div>
+
+</div>
+
+<div style="clear: both;">
+
+</div>
 
 </div>
