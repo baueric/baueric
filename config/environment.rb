@@ -1,7 +1,5 @@
-# Load the rails application
+# Load the Rails application.
 require File.expand_path('../application', __FILE__)
 
-# Initialize the rails application
-Baueric::Application.initialize!
-
-ENV['GEM_HOME'] = '/home2/bauericc/ruby/'
+# Initialize the Rails application.
+Rails.application.initialize!
