@@ -14,4 +14,4 @@ Rails.application.config.assets.precompile += %w(
   ornery/*
   main_slideshow.js
   slides.jquery.js
-  )
+  main.js)

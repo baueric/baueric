@@ -3,10 +3,8 @@
 
 <script>
 
-    var $j = jQuery.noConflict();
-
-    $j(function(){
-        $j('#slides').slides({
+    $(function(){
+        $('#slides').slides({
             preload: false,
             play: 6000,
             pause: 6000,
@@ -28,7 +26,7 @@
         // set the number of rows of pagination dots
         var num_rows = 1;
 
-        var num_pics = $j('.slideshow_caption').length;
+        var num_pics = $('.slideshow_caption').length;
 
         var width_mult = null;
         if (num_rows == 1) {
@@ -40,7 +38,7 @@
         }
 
         var width = width_mult * num_pics;
-        $j('.pagination').css('width', width + 'px');
+        $('.pagination').css('width', width + 'px');
     });
 
 </script>

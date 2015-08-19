@@ -1,31 +1,29 @@
 
 <script>
 
-    var $j = jQuery.noConflict();
-
-    $j(function () {
-        $j('#main_logo').css('display', 'none');
+    $(function () {
+        $('#main_logo').css('display', 'none');
         var container_width;
-        container_width = $j('#super_container').css('width');
-        $j('#banner').css('width', 0);
-        //$j('#banner').css('display', 'none');
-        $j('#body_content').css('display', 'none');
-        $j('#nav_links_area').css('display', 'none');
-        $j('#footer').css('display', 'none');
+        container_width = $('#super_container').css('width');
+        $('#banner').css('width', 0);
+        //$('#banner').css('display', 'none');
+        $('#body_content').css('display', 'none');
+        $('#nav_links_area').css('display', 'none');
+        $('#footer').css('display', 'none');
     });
 
     var animationMultiplier = 150;
 
-    $j(window).load(function () {
-        $j('#main_logo').fadeIn(2 * animationMultiplier, function () {
-        $j('#banner').animate({width: '1000px'}, 3 * animationMultiplier, function () {
-        $j('#banner').slideDown(1.5 * animationMultiplier, function () {
-        $j('#nav_links_area').fadeIn(2 * animationMultiplier, function () {
-        $j('#body_content').slideDown(2 * animationMultiplier, function () {
-        $j('#footer').fadeIn(2 * animationMultiplier, function () {
-        $j('#index_background_layer1').animate({opacity:'1'}, 500, function () {
-        $j('#index_background_layer2').animate({opacity:'1'}, 500, function () {
-        $j('#index_background').animate({opacity:'1'}, 800, function () {
+    $(window).load(function () {
+        $('#main_logo').fadeIn(2 * animationMultiplier, function () {
+        $('#banner').animate({width: '1000px'}, 3 * animationMultiplier, function () {
+        $('#banner').slideDown(1.5 * animationMultiplier, function () {
+        $('#nav_links_area').fadeIn(2 * animationMultiplier, function () {
+        $('#body_content').slideDown(2 * animationMultiplier, function () {
+        $('#footer').fadeIn(2 * animationMultiplier, function () {
+        $('#index_background_layer1').animate({opacity:'1'}, 500, function () {
+        $('#index_background_layer2').animate({opacity:'1'}, 500, function () {
+        $('#index_background').animate({opacity:'1'}, 800, function () {
         });});});});});});});});});
     });
 
