@@ -1,4 +1,4 @@
-class WelcomeController < ApplicationController
+class MainController < ApplicationController
   # To change this template use File | Settings | File Templates.
 
   def index

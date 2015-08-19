@@ -1,4 +1,12 @@
 
+//= require ./prototype-1.7.1
+//= require ./physics/ornery-vec2
+//= require ./physics/ornery-matrix22
+//= require ./physics/ornery-objects
+//= require ./physics/ornery-physics
+//= require ./physics/ornery-collision
+//= require ./physics/ornery-arena
+//= require ./physics/ornery-renderer
 
 var gameVictory = null;
 
