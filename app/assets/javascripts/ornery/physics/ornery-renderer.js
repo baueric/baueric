@@ -31,11 +31,11 @@ var ArenaRenderer = Class.create({
 
             if (this.renderDebugInfo) {
                 if (!obj.fixed) {
-                    translationalEnergy += (.5) * obj.Mass() * Math.pow(obj.vel.Mag(),2);
-                    rotationalEnergy += (.5) * obj.momentOfInert * Math.pow(obj.rotVel,2);
+                    translationalEnergy += (0.5) * obj.Mass() * Math.pow(obj.vel.Mag(),2);
+                    rotationalEnergy += (0.5) * obj.momentOfInert * Math.pow(obj.rotVel,2);
                     // use the veritical position from the floor (496)
                     var h = (496 - obj.pos.y);
-                    potentialEnergy += h * obj.Mass() / .031 ;
+                    potentialEnergy += h * obj.Mass() / 0.031 ;
                 }
             }
         }
@@ -95,7 +95,7 @@ var ArenaRenderer = Class.create({
                 for (var i=1; i <= surfaceNormals.length; i++) {
                     this.context.beginPath();
                     var i2 = (i-1) % surfaceNormals.length;
-                    var p = i % surfaceNormals.length
+                    var p = i % surfaceNormals.length;
                     var normalStart = oVec2.Add(verts[p], verts[i2]);
                     normalStart.Multiply(0.5);
                     this.context.moveTo(normalStart.x, normalStart.y);
@@ -118,7 +118,7 @@ var ArenaRenderer = Class.create({
 
             this.context.beginPath();
             this.context.moveTo(collision.vertex.x, collision.vertex.y);
-            this.context.lineTo(collision.vertex.x + collision.mtv.x, collision.vertex.y + collision.mtv.y)
+            this.context.lineTo(collision.vertex.x + collision.mtv.x, collision.vertex.y + collision.mtv.y);
             this.context.strokeStyle = 'red';
             this.context.stroke();
             this.context.fillStyle = 'red';

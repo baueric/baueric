@@ -4,28 +4,14 @@
     <data-source source="LOCAL" name="Rails baueric: development" uuid="cc3b90ca-8a5b-4adb-9358-0893c15c277a">
       <driver-ref>sqlite.xerial</driver-ref>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/development.sqlite3</jdbc-url>
-      <libraries>
-        <library>
-          <url>file://$USER_HOME$/.RubyMine40/config/jdbc-drivers/xerial-sqlite-license.txt</url>
-        </library>
-        <library>
-          <url>file://$USER_HOME$/.RubyMine40/config/jdbc-drivers/sqlite-jdbc-3.7.2.jar</url>
-        </library>
-      </libraries>
+      <jdbc-url>jdbc:postgresql:baueric_development</jdbc-url>
+      <libraries />
     </data-source>
     <data-source source="LOCAL" name="Rails baueric: production" uuid="04ef0011-ad9d-4752-90af-eead4e9ba584">
       <driver-ref>sqlite.xerial</driver-ref>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/production.sqlite3</jdbc-url>
-      <libraries>
-        <library>
-          <url>file://$USER_HOME$/.RubyMine40/config/jdbc-drivers/xerial-sqlite-license.txt</url>
-        </library>
-        <library>
-          <url>file://$USER_HOME$/.RubyMine40/config/jdbc-drivers/sqlite-jdbc-3.7.2.jar</url>
-        </library>
-      </libraries>
+      <jdbc-url>jdbc:postgresql:baueric_production</jdbc-url>
+      <libraries />
     </data-source>
     <data-source source="LOCAL" name="Rails baueric: development" uuid="c86498a4-65eb-4b5d-8d06-470ddf6c407e">
       <driver-ref>sqlite.xerial</driver-ref>
@@ -55,4 +41,3 @@
     </data-source>
   </component>
 </project>
-

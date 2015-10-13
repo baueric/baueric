@@ -16,7 +16,9 @@ Rails.application.routes.draw do
 
   scope 'projects' do
     get "ornery_objects" => "projects#ornery_objects"
-    get "weblingo" => "projects#weblingo"
+    scope 'weblingo' do
+      get '' => "weblingo#index"
+    end
   end
 
   # Example of named route that can be invoked with purchase_url(id: product.id)

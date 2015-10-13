@@ -1,0 +1,15 @@
+
+<%= content_for :javascripts do %>
+    <%= javascript_include_tag 'weblingo' %>
+
+
+<% end %>
+
+<script type="text/javascript">
+    $(function() {
+        var weblingo = new window.Weblingo({
+        });
+    });
+</script>
+<div id="wrapper">
+</div>

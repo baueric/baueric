@@ -48,10 +48,10 @@
     float: left;
 }
 
-.nav_link {
+.nav-link {
     font-family: Century Gothic, serif;
     float: left;
-    font-size: 16px;
+    font-size: 18px;
     color: #30435d;
     cursor: pointer;
     -webkit-touch-callout: none;
@@ -62,16 +62,16 @@
     user-select: none;
 }
 
-.nav_link:link, .nav_link:visited {
+.nav-link:link, .nav-link:visited {
     text-decoration:none;
     color: #30435d;
 }
 
-.nav_link:hover {
+.nav-link:hover {
     color: #8c6f6a;
 }
 
-.below_nav_expander {
+.below-nav-expander {
     margin-top: 20px;
     border-bottom: 1px solid #000000;
     display: none;

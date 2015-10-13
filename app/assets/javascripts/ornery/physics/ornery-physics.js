@@ -15,7 +15,7 @@ var OrneryPhysics = Class.create({
     // This is the gravitational vector (units/s/s)
     gravity: new oVec2(0, 0),
     // Elasticity to use for collisions
-    elasticity:.65,
+    elasticity:0.65,
     collisionFriction: 0.1,
     // A threshold to use to determine if there is a contact point
     contactVelThreshold: 0.1,

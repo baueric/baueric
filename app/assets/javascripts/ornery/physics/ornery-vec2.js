@@ -95,17 +95,17 @@ oVec2.Cross = function(vec1, vec2)
 // crosses a z direction vector with a x,y vector: (0,0,z) x (x, y, 0) = (-y*z, x*z, 0)
 oVec2.CrossZ = function(z, vec) {
     return new oVec2(- vec.y * z, vec.x * z);
-}
+};
 
 // Gets the perpendicular vector by rotating clockwise
 oVec2.PerpendicularCW = function(vec) {
     return new oVec2(-vec.y, vec.x);
-}
+};
 
 // Gets the perpendicular vector by rotating counter clockwise
 oVec2.PerpendicularCCW = function(vec) {
     return new oVec2(vec.y, -vec.x);
-}
+};
 
 oVec2.Min = function(vec1, vec2) {
     if (vec1.Mag() < vec2.Mag()) {
@@ -114,14 +114,14 @@ oVec2.Min = function(vec1, vec2) {
     else {
         return vec2;
     }
-}
+};
 
 oVec2.Normalize = function(vec)
 {
     var normVec = new oVec2(vec.x, vec.y);
     normVec.Normalize();
     return normVec;
-}
+};
 
 oVec2.Max = function(vec1, vec2) {
     if (vec1.Mag() >= vec2.Mag()) {
@@ -130,7 +130,7 @@ oVec2.Max = function(vec1, vec2) {
     else {
         return vec2;
     }
-}
+};
 
 oVec2.AreParallel = function(vec1, vec2) {
     if (oVec2.Cross(vec1, vec2) == 0) {
@@ -139,4 +139,4 @@ oVec2.AreParallel = function(vec1, vec2) {
     else {
         return false;
     }
-}
+};

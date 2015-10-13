@@ -2,7 +2,7 @@
 
 <script type="text/javascript">
 
-    // prototype.js uses $ for it's magic character
+    // prototype.js uses $
     var $j = jQuery.noConflict();
 
     var _canvas;
@@ -19,7 +19,7 @@
         _arena = new OrneryArena(_canvas, false);
 
         $j("#ElasInput").val(_arena.physics.elasticity * 100);
-        $j("#GravInput").val(_arena.physics.gravity.y)
+        $j("#GravInput").val(_arena.physics.gravity.y);
     }
 
     function play(){
@@ -54,8 +54,8 @@
 <div id="ornery_container">
 
   <p>
-    I developed a 2-dimensional physics engine for a class project at Drexel University. It was implemented in
-    JavaScript and runs in an HTML Canvas element.
+    A 2-dimensional physics engine I made for a class project at Drexel University. It is implemented in
+    JavaScript and runs in an HTML canvas.
   </p>
 
 
@@ -70,8 +70,10 @@
   <canvas id="MainCanvas" width="800" height="500" style="margin: 5px; border: solid 2px #000000; display: block;">
 
   </canvas>
-  <iframe width="640" height="480" src="http://www.youtube.com/embed/Omfx1CSQzXk" frameborder="0" allowfullscreen>
+  <div >
+      <iframe width="640" height="480" src="http://www.youtube.com/embed/Omfx1CSQzXk" frameborder="0" allowfullscreen>
 
-  </iframe>
+      </iframe>
+  </div>
 </div>
 

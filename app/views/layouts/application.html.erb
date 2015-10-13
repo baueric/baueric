@@ -5,6 +5,7 @@
   <!-- This site is administered by Eric Bauer. Please send inquiries to eric@baueric.com -->
   <%= stylesheet_link_tag "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
+  <%= yield :javascripts %>
   <%= csrf_meta_tags %>
   <%= yield :head %>
 </head>
@@ -17,28 +18,30 @@
       <div id="nav_center_floater">
       </div>
       <div id="nav_links_area">
-        <%= link_to "HOME", '/home', :class => 'nav_link' %>
+        <%= link_to "HOME", '/home', :class => 'nav-link' %>
         <div class="nav_link_holder">
-          <%= link_to "PHOTOS", 'photos', :class => 'nav_link' %>
+          <%= link_to "PHOTOS", '/photos', :class => 'nav-link' %>
         </div>
         <div class="nav_link_holder">
-          <div class="nav_link" onclick="nav_link_click(projects_expander)">PROJECTS</div>
+          <div class="nav-link" onclick="nav_link_click(projects_expander)">PROJECTS</div>
         </div>
         <div class="nav_link_holder">
-          <div class="nav_link" onclick="nav_link_click(contact_expander)">CONTACT</div>
+          <div class="nav-link" onclick="nav_link_click(contact_expander)">CONTACT</div>
         </div>
         <div class="nav_link_holder">
-          <%= link_to "RESUM&Eacute;".html_safe, 'resume', :class => 'nav_link' %>
+          <%= link_to "RESUM&Eacute;".html_safe, '/resume', :class => 'nav-link' %>
         </div>
       </div>
     </div>
   </div>
-  <div class="below_nav_expander" id="projects_expander">
+  <div class="below-nav-expander" id="projects_expander">
 
-    <%= link_to 'JavaScript Physics Engine', 'projects/ornery_objects' %>
+    <%= link_to 'JavaScript Physics Engine', '/projects/ornery_objects' %>
+    <br/>
+    <%= link_to 'Weblingo Quiz', '/projects/weblingo' %>
 
   </div>
-  <div class="below_nav_expander" id="contact_expander">
+  <div class="below-nav-expander" id="contact_expander">
     eric@baueric.com
   </div>
   <div id="body_content">

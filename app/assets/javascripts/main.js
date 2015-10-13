@@ -16,18 +16,16 @@ function nav_link_click(div_id) {
         expanders.push(div_id);
     }
 
-    var expander_div = $(div_id);
+    var expander_div = jQuery(div_id);
     var open_div = null;
     var hidden = expander_div.is(':hidden');
-
-    debugger;
 
     if (hidden) {
         for (var i=0;i<expanders.length;i++) {
             if (expanders[i] == div_id) {
                 continue;
             }
-            open_div = $(expanders[i]);
+            open_div = jQuery(expanders[i]);
             if (!open_div.is(':hidden')) {
                 break;
             }
@@ -36,9 +34,10 @@ function nav_link_click(div_id) {
     }
 
     if (open_div !== null) {
-        open_div.slideToggle(300, function() {expander_div.slideToggle(300);});
+      open_div.slideToggle(300, function() {expander_div.slideToggle(300);});
     }
     else {
-        expander_div.slideToggle(300);
+      expander_div.slideToggle(300);
     }
 }
+
