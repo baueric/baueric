@@ -1,0 +1,14 @@
+
+
+.horiz-center-container {
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    margin: 25px auto;
+}
+
+#main-canvas {
+    border: solid 2px #000000;
+    display: block;
+    margin: 5px auto;
+}

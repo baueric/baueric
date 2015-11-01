@@ -1,0 +1,188 @@
+name,website_url,tagline,classification_id,_classification,logo_url,_include
+Ruby on Rails,http://rubyonrails.org/,an open-source web framework that’s optimized for programmer happiness and sustainable productivity. It lets you write beautiful code by favoring convention over configuration.,1,Web framework,http://hostingcloudvps.com/wp-content/uploads/2015/10/rubyrails-1.png,1
+Heroku,https://www.heroku.com,Deploy and run apps on today's most innovative Platform as a Service,4,Cloud platform as a service,http://cdn.liviutudor.com/wp-content/uploads/2015/05/groovy-lang-300x150.png,1
+Mongoose,http://mongoosejs.com/,elegant mongodb object modeling for node.js,7,Database object modeling,http://www.santiagodelatorre.me/img/technologies/mongoose.png,1
+CoffeeScript,http://coffeescript.org/,a little language that compiles into JavaScript,8,Javascript precompiler,http://sparksolutions.co/wp-content/uploads/2015/05/coffeescript.png,1
+jQuery,https://jquery.com/,"a fast, small, and feature-rich JavaScript library",6,Javascript library,https://camo.githubusercontent.com/02ed3f6695f288aedec24c2a329c667281efef5f/687474703a2f2f707265636973696f6e2d736f6674776172652e636f6d2f77702d636f6e74656e742f75706c6f6164732f323031342f30342f6a5175726572792e676966,1
+Apache,http://www.apache.org/,the world's most used web server software,5,Web server,https://www.digicert.com/images/apache-logo.gif,1
+Hibernate,http://hibernate.org/,idiomatic persistence for Java and relational databases,7,Database object modeling,https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Hibernate_logo_a.png/800px-Hibernate_logo_a.png,1
+Nginx,http://nginx.org/,"an HTTP and reverse proxy server, a mail proxy server, and a generic TCP proxy server",5,Web server,https://www.nginx.com/wp-content/uploads/2015/04/NGINX_logo_rgb-01.png,1
+typescript,http://www.typescriptlang.org/,lets you write JavaScript the way you really want to,8,Javascript precompiler,https://www.sitepen.com/blog/wp-content/uploads/2015/05/TypeScript.png,1
+Cherokee,http://cherokee-project.com/,"an innovative, feature rich, lightning fast and easy to configure open source web server...",5,Web server,http://gulshan.beejan.com/img/cherokee2-mini.png,1
+Groovy,http://www.groovy-lang.org/,"a powerful, optionally typed and dynamic language for the Java platform",0,None,http://cdn.liviutudor.com/wp-content/uploads/2015/05/groovy-lang-300x150.png,1
+Angular.js,https://angularjs.org/,"what HTML would have been, had it been designed for building web-apps. Declarative templates with data-binding",9,Front-end framework,http://vojtajina.github.io/html5la/2012-05-30-boston/images/AngularShieldLogo.png,1
+Node.js,https://nodejs.org/,an asynchronous event driven framework designed to build scalable network applications,10,Back-end framework,http://aredo.github.io/jakartajs-may-2014-meetup/images/node-js-logo-large.png,1
+Twitter Bootstrap,getbootstrap.com,"the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web.",9,Front-end framework,https://jayeshcp.files.wordpress.com/2013/03/twitter-bootstrap.jpg,1
+Django,https://www.djangoproject.com/,"a high-level Python Web framework that encourages rapid development and clean, pragmatic design",1,Web framework,http://www.fullstackpython.com/theme/img/django-logo-positive.png,1
+WordPress,https://wordpress.org/,"web software you can use to create a beautiful website, blog, or app",11,Content management system,https://s.w.org/about/images/logos/wordpress-logo-stacked-rgb.png,1
+drupal,https://www.drupal.org/,an open source content management platform powering millions of websites and applications,11,Content management system,http://d3a76m97whzzf.cloudfront.net/wp-content/uploads/2014/09/drupal-logo.png,1
+ batman.js,http://batmanjs.org/,"If you love Ruby on Rails...this is the best, most familiar way to build rich web apps in CoffeeScript.",9,Front-end framework,http://devrates.com/project/logo/79079,1
+sizzle.js,http://sizzlejs.com/,a pure-JavaScript CSS selector engine designed to be easily dropped in to a host library.,0,None,http://sizzlejs.com/i/logo-2.png,1
+canjs,http://canjs.com/,"a JavaScript library that makes developing complex applications simple and fast. Easy-to-learn, small, and unassuming of your application structure, but with modern features like custom tags and 2-way binding. Creating apps is easy and maintainable.",1,Web framework,https://pbs.twimg.com/profile_images/479631290367348736/4CCcFo0m.png,1
+KendoUI,,,0,None,,0
+ASP.NET,,"a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.",0,None,,0
+MVC,,,0,None,,0
+MVVM,,,0,None,,0
+json,,,0,None,,0
+Ajax,,,0,None,,0
+CSS,,,0,None,,0
+SVN,,,0,None,,0
+Git,,,0,None,,0
+AES,,,0,None,,0
+SSL,,,0,None,,0
+Express,Web Framework,,0,None,,0
+SASS,Css precompiler,,0,None,,0
+SCSS,Css precompiler,,0,None,,0
+LESS,Css precompiler,,0,None,,0
+Stylus,Css precompiler,,0,None,,0
+Compass,Css precompiler,,0,None,,0
+Jade,javascript template engine,,0,None,,0
+EJS,javascript template engine,,0,None,,0
+Hogan.js,javascript template engine,,0,None,,0
+HTML5 Boilerplate,Web Framework,,0,None,,0
+Foundation,,,0,None,,0
+Dart,,,0,None,,0
+Nib,CSS Mixin,,0,None,,0
+CodeKit,,,0,None,,0
+LiveReload,,,0,None,,0
+Scout,,,0,None,,0
+SImpLess,,,0,None,,0
+ZinoUI,,,0,None,,0
+Restful,,,0,None,,0
+Dreamweaver,,,0,None,,0
+Nvu,,,0,None,,0
+FrontPage,,,0,None,,0
+Mustache,,,0,None,,0
+Yeoman,,,0,None,,0
+Ratchet,http://goratchet.com/,,0,None,,0
+IndexedDB,,,0,None,,0
+localStorage,,,0,None,,0
+Laravel,,,0,None,,0
+Bower,,,0,None,,0
+Grunt,,,0,None,,0
+Gulp,,,0,None,,0
+HHVM,,,0,None,,0
+Redis,http://redis.io/,,0,None,,0
+Beanstalkd,,,0,None,,0
+Memcached,,,0,None,,0
+Hack,,,0,None,,0
+XML,,,0,None,,0
+Favicon,,,0,None,,0
+LAMP,,,0,None,,0
+SOAP,,,0,None,,0
+URL,,,0,None,,0
+SMTP,,,0,None,,0
+Go,,,0,None,,0
+Sprockets,,,0,None,,0
+Webstorm,,,0,None,,0
+Rubymine,,,0,None,,0
+SublimeText,,,0,None,,0
+Visual Studio,,,0,None,,0
+Symfony,,,0,None,,0
+BEM,bem.info,,0,None,,0
+cold fusion,,,0,None,,0
+react,,,0,None,,0
+jetpack,,,0,None,,0
+requirejs,,,0,None,,0
+zepto.js,,,0,None,,0
+yui,,,0,None,,0
+dojo.js,,,0,None,,0
+mootools.js,,,0,None,,0
+handlebars.js,,,0,None,,0
+ember.js,,,0,None,,0
+backbone.js,,,0,None,,0
+raphael.js,,,0,None,,0
+modernizr.js,,,0,None,,0
+yepnode.js,,,0,None,,0
+polymer,,,0,None,,0
+ext.js,,,0,None,,0
+knockout.js,,,0,None,,0
+sammy.js,,,0,None,,0
+breeze.js,,,0,None,,0
+traceur,,,0,None,,0
+broccoli,,,0,None,,0
+suzy,,,0,None,,0
+bourbon,http://bourbon.io/,,0,None,,0
+honey badger,,,0,None,,0
+roll bar,,,0,None,,0
+hadoop,,,0,None,,0
+electron,http://electron.atom.io/,,0,None,,0
+travis ci,,,0,None,,0
+phusion passenger,,,0,None,,0
+puma,,,0,None,,0
+unicorn,,,0,None,,0
+torquebox,,,0,None,,0
+php,,,0,None,,0
+ngrok,,,0,None,,0
+pusher,pusher.com,,0,None,,0
+codeship,,,0,None,,0
+Elixir,,,0,None,,0
+atom,github editor,,0,None,,0
+meteor,https://www.meteor.com/,,0,None,,0
+lua,,,0,None,,0
+croogo,https://croogo.org/,,0,None,,0
+joomla,,,0,None,,0
+slack,,,0,None,,0
+togglr,,,0,None,,0
+sinatra,http://www.sinatrarb.com/intro.html,,0,None,,0
+celery,http://www.celeryproject.org/,,0,None,,0
+sidekiq,,,0,None,,0
+capistrano,,,0,None,,0
+rollup,https://github.com/rollup,,0,None,,0
+babel,https://babeljs.io/,,0,None,,0
+jsx,https://jsx.github.io/,,0,None,,0
+puppet,,,0,None,,0
+chef,,,0,None,,0
+mercurial,,,0,None,,0
+apache cordova,https://cordova.apache.org/,,0,None,,0
+ionic,http://ionicframework.com/,,0,None,,0
+phonegap,http://phonegap.com/,,0,None,,0
+RSpec,http://rspec.info/,,0,None,,0
+Cucumber,https://cucumber.io/,,0,None,,0
+Zapier,https://zapier.com/,,0,None,,0
+Jira,https://www.atlassian.com/software/jira,,0,None,,0
+Trello,https://trello.com/,,0,None,,0
+slim,http://slim-lang.com/,,0,None,,0
+docker,docker.com,designed to be easily dropped in to a host library.,0,None,,0
+vagrant,vagrantup.com,"Create and configure lightweight, reproducible, and portable development environments.",0,None,,0
+Tectonic,tectonic.com,The smartest way to run your container infrastructure,0,None,,0
+Kubernetes,http://kubernetes.io/,Manage a cluster of Linux containers as a single system to accelerate Dev and simplify Ops.,0,None,,0
+Twig,http://twig.sensiolabs.org/,"The flexible, fast, and secure template engine for PHP",0,None,,0
+Ansible,http://www.ansible.com,Deploy apps. Manage systems. Crush complexity.,0,None,,0
+lodash,lodash.com,"A JavaScript utility library delivering consistency, modularity, performance, & extras.",0,None,,0
+New Relic,http://newrelic.com/,Actionable insights to monitor and improve the performance of your applications.,0,None,,0
+Flux,,Application architecture for building user interfaces,0,None,,0
+Compass,http://compass-style.org/,...is an open-source CSS Authoring Framework.,0,None,,0
+Coveralls,https://coveralls.io/,We help you deliver code confidently by showing which parts of your code aren’t covered by your test suite.,0,None,,0
+Vue.js,http://vuejs.org/,Reactive Components for Modern Web Interfaces,0,None,http://vuejs.org/images/logo.png,0
+Azure,,,0,None,,0
+AWS,,,0,None,,0
+OpenShift,,,0,None,,0
+mongoDB,,,0,None,http://photos2.meetupstatic.com/photos/event/9/5/c/0/highres_21338336.jpeg,0
+mariaDB,,,,,,0
+postgres,,,,,,0
+,,,,,,0
+,,,,,,0
+,,,,,,0
+,,,,,,0
+,,,,,,0
+,,,,,,0
+,,,,,,0
+,,,,,,0
+,,,,,,0
+,,,,,,0
+,,,,,,0
+,,,,,,0
+,,,,,,0
+,,,,,,0
+,,,,,,0
+,,,,,,0
+,,,,,,0
+,,,,,,0
+,,,,,,0
+,,,,,,0
+,,,,,,0
+,,,,,,0
+,,,,,,0
+,,,,,,0
+,,,,,,0

@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
   # The priority is based upon order of creation: first created -> highest priority.
-  # See how all your routes lay out with "rake routes".
+  # See how all your routes lay out with 'rake routes'.
 
-  # You can have the root of your site routed with "root"
+  # You can have the root of your site routed with 'root'
   # root 'welcome#index'
 
   # Example of regular route:
@@ -10,14 +10,15 @@ Rails.application.routes.draw do
 
   root 'main#index'
 
-  get "home" => "main#index"
-  get "resume" => "main#resume"
-  get "photos" => "main#photos"
+  get 'home' => 'main#index'
+  get 'resume' => 'main#resume'
+  get 'photos' => 'main#photos'
 
   scope 'projects' do
-    get "ornery_objects" => "projects#ornery_objects"
+    get 'ornery_objects' => 'ornery#index', as: :ornery
     scope 'weblingo' do
-      get '' => "weblingo#index"
+      get '' => 'weblingo#index', as: :weblingo
+      get 'show_all' => 'weblingo#all'
     end
   end
 

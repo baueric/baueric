@@ -20,6 +20,8 @@ group :assets do
   gem 'uglifier'
 end
 
+gem 'font-awesome-sass'
+
 gem 'pg'
 
 gem 'jquery-rails'
@@ -27,6 +29,12 @@ gem 'jquery-rails'
 gem 'puma'
 
 gem 'ractive-rails'
+
+source 'https://rails-assets.org' do
+  gem 'rails-assets-lodash'
+end
+
+#gem 'turbolinks'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'

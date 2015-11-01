@@ -1,0 +1,29 @@
+
+
+<script type="text/javascript">
+    $(function() {
+        var rac = new Ractive({
+            el: '#ractive-container',
+            template: '#ractive-template',
+            data: function () {
+                return {
+                    lingos: <%= @lingos.to_json.html_safe %>
+                };
+            }
+        });
+    });
+</script>
+
+<div id="ractive-container"></div>
+
+<script id="ractive-template" type='text/mustache'>
+  {{#lingos:i}}
+  <div style="margin-bottom: 20px; border: 1px solid black;">
+    <p>
+      {{.name}}: {{.tagline}}
+    </p>
+
+    <img src="{{.logo_url}}" style="height: 150px;">
+  </div>
+  {{/}}
+</script>

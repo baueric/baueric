@@ -1,15 +1,20 @@
 
 <%= content_for :javascripts do %>
     <%= javascript_include_tag 'weblingo' %>
-
-
 <% end %>
 
 <script type="text/javascript">
     $(function() {
         var weblingo = new window.Weblingo({
+            el: '#weblingo-container',
+            data: function () {
+                return {
+                    lingos: <%= @lingos.to_json.html_safe %>,
+                    questions: <%= @questions.to_json.html_safe %>
+                };
+            }
         });
     });
 </script>
-<div id="wrapper">
-</div>
+
+<div id="weblingo-container"></div>

@@ -12,7 +12,6 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require_directory ./templates
 //= require ractive
 //= require main
 

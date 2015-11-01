@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>bauEric</title>
-  <!-- This site is administered by Eric Bauer. Please send inquiries to eric@baueric.com -->
+  <!-- This site is authored and administered by Eric Bauer. -->
   <%= stylesheet_link_tag "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= yield :javascripts %>
@@ -12,13 +12,13 @@
 <body>
 
 <div id="super_container">
-  <%= link_to image_tag("logo_new.png", :id => 'main_logo'), '/home' %>
+  <a href="/" id="main_logo"><span class="main-logo-bau">bau</span><span class="main-logo-eric">Eric</span></a>
   <div id="banner">
     <div id="nav_bar">
       <div id="nav_center_floater">
       </div>
       <div id="nav_links_area">
-        <%= link_to "HOME", '/home', :class => 'nav-link' %>
+        <%= link_to "HOME", '/', :class => 'nav-link' %>
         <div class="nav_link_holder">
           <%= link_to "PHOTOS", '/photos', :class => 'nav-link' %>
         </div>
@@ -36,22 +36,23 @@
   </div>
   <div class="below-nav-expander" id="projects_expander">
 
-    <%= link_to 'JavaScript Physics Engine', '/projects/ornery_objects' %>
-    <br/>
-    <%= link_to 'Weblingo Quiz', '/projects/weblingo' %>
-
+    <%= link_to :ornery, class: 'project-link' do %>
+      <i class="fa fa-cubes"></i>&nbsp;Physics Engine
+    <% end %>
+    <%= link_to :weblingo, class: 'project-link' do %>
+      <i class="fa fa-question-circle"></i>&nbsp;Weblingo Quiz
+    <% end %>
   </div>
   <div class="below-nav-expander" id="contact_expander">
-    eric@baueric.com
+    <i class="fa fa-envelope-o"></i>&nbsp;&nbsp;s.ericbauer@gmail.com
   </div>
   <div id="body_content">
     <%= yield %>
   </div>
   <div id="footer">
-    <%= link_to image_tag("stackoverflow-25-black.png", :class => 'footer_icon', :id => 'stackoverflow_icon'), "http://stackoverflow.com/users/2847310/baueric", :title => 'Stackoverflow', :rel => 'tooltip' %>
-    <%= link_to image_tag("GitHub_logo_small.png", :class => 'footer_icon', :id => 'github_icon'), "https://github.com/baueric/", :title => 'GitHub', :rel => 'tooltip' %>
-    <%= link_to image_tag("Facebook_logo.png", :class => 'footer_icon', :id => 'facebook_icon'), "http://www.facebook.com/ericbauer", :title => 'Facebook', :rel => 'tooltip' %>
-    <%= link_to image_tag("Linkedin_logo_small.png", :class => 'footer_icon', :id => 'linkedin_icon'), "http://www.linkedin.com/profile/view?id=97501511", :title => 'LinkedIn', :rel => 'tooltip' %>
+    <%= link_to icon('stack-overflow', :class => 'footer_icon'), "http://stackoverflow.com/users/2847310/baueric", :title => 'Stackoverflow', :rel => 'tooltip' %>
+    <%= link_to icon('github', :class => 'footer_icon'), "https://github.com/baueric/", :title => 'Github', :rel => 'tooltip' %>
+    <%= link_to icon('linkedin', :class => 'footer_icon no-left-border'), "http://www.linkedin.com/profile/view?id=97501511", :title => 'LinkdIn', :rel => 'tooltip' %>
   </div>
 </div>
 

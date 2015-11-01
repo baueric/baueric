@@ -1,0 +1,34 @@
+
+<div class="weblingo-container">
+
+  {{#if questionNum<0}}
+  <div class="question-info-section">
+    Welcome to the Weblingo quiz.
+    <br/>
+    Select the logo that goes with the corresponding tag-line.
+    <br/>
+    <br/>
+    <button on-click="startQuiz" class="quiz-button">Begin</button>
+  </div>
+
+  {{elseif questionNum >= questions.length}}
+  finished with score: {{score}}/{{questions.length}}
+  {{else}}
+  <div>
+
+    <div class="question-info-section">
+      <img src="{{currentLingo.logo_url}}" class="logo-img" title="{{currentLingo.name}}" >
+    </div>
+
+    <div class="question-info-section">
+      {{#choicesTagline:i}}
+      <div class="question-choice" on-click="choiceClick(i)">
+        <i class="fa fa-quote-left"></i>&nbsp;&nbsp;{{.}}&nbsp;&nbsp;<i class="fa fa-quote-right"></i>
+      </div>
+      {{/}}
+    </div>
+
+  </div>
+  {{/if}}
+
+</div>

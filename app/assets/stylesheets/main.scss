@@ -1,0 +1,25 @@
+
+#main-image-container {
+  height: 620px;
+  position: relative;
+
+  .background-layer {
+    position: absolute;
+    height: 620px;
+    width: 1000px;
+    opacity: 0;
+  }
+
+
+
+  #index_background {
+    background-image: url(https://lh5.googleusercontent.com/-SG-7QiJgccs/UOh1Tcn7QvI/AAAAAAAA3-4/8d9vbY2jTr0/s1000/Standing_dock.jpg);
+  }
+  #index_background_layer1 {
+    background-image: url(https://lh3.googleusercontent.com/-m9Eys1KvzQ0/UPNqSK7nx8I/AAAAAAAA4Fs/ur2Z9NB3MB0/s1000/Standing_dock_layers_1.png);
+  }
+  #index_background_layer2 {
+    background-image: url(https://lh5.googleusercontent.com/-orrNzqmSVis/UPNqSVuoWtI/AAAAAAAA4Fw/Jux0QMdl4jU/s1000/Standing_dock_layers_2.png);
+  }
+
+}

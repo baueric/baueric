@@ -1,0 +1,98 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+
+
+/*
+ * Many fonts:
+ * http://www.dafont.com/theme.php?cat=504&fpp=100&text=bauEric
+ * REALLY LIKE THIS FONT: http://www.dafont.com/andarilho.font?text=bauEric&fpp=100&psize=l&back=theme
+ */
+
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+@font-face {
+    font-family: 'Walkway SemiBold';
+    src: url('Walkway SemiBold.ttf')  format('truetype')
+}
+@font-face {
+    font-family: 'Walkway Bold';
+    src: url('Walkway Bold.ttf')  format('truetype')
+}
+@font-face {
+    font-family: 'Walkway Expand SemiBold';
+    src: url('Walkway Expand SemiBold.ttf')  format('truetype')
+}
+@font-face {
+    font-family: 'Walkway SemiBold';
+    src: url('Walkway SemiBold.ttf')  format('truetype')
+}
+@font-face {
+    font-family: 'Walkway Black';
+    src: url('Walkway Black.ttf')  format('truetype')
+}
+@font-face {
+    font-family: 'Walkway Condensed Bold';
+    src: url('Walkway Condensed Bold.ttf')  format('truetype')
+}
+@font-face {
+    font-family: 'Walkway Condensed SemiBold';
+    src: url('Walkway Condensed SemiBold.ttf')  format('truetype')
+}
+@font-face {
+    font-family: 'Walkway Condensed';
+    src: url('Walkway Condensed.ttf')  format('truetype')
+}
+@font-face {
+    font-family: 'Walkway rounded';
+    src: url('Walkway rounded.ttf')  format('truetype')
+}
+@font-face {
+    font-family: 'Walkway UltraBold';
+    src: url('Walkway UltraBold.ttf')  format('truetype')
+}
+
+#body {
+    background-color: #ffffff;
+    margin: 0px 25px 0px 25px;
+}
+
+* {
+    font-family: Calibri, sans-serif;
+    color: #333333;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+a img {
+    border: none;
+}
+
+.project-link {
+  padding: 6px 16px;
+  font-size: 18px;
+  color: #444444;
+  //background-color: #d8d8d8;
+  margin-left: 10px;
+  border-radius: 4px;
+  border: 1px dashed #dddddd;
+  text-decoration: none;
+}
+
+.project-link:hover {
+  background-color: #aeaeae;
+}

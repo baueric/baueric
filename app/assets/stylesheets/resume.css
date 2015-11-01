@@ -9,6 +9,7 @@
 }
 
 .resume_title {
+    font-weight: lighter;
     display: inline;
     font-size: 54px;
     padding: 0px 0px 0px 15px;
@@ -16,12 +17,10 @@
 
 .resume_title_lastname {
     display: inline;
-    font-family: Times New Roman;
     color: #8c6f6a;
 }
 .resume_title_firstname {
     display: inline;
-    font-family: Times New Roman;
     color: #50584f;
 }
 

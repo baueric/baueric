@@ -1,0 +1,56 @@
+
+.weblingo-container {
+
+  .question-info-section {
+    margin: 10px auto;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .lingo-name {
+    font-size: 24px;
+    margin-bottom: 10px;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .logo-img {
+    height: 150px;
+  }
+
+  .question-choice {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 18px;
+    font-style: italic;
+    cursor: pointer;
+    color: #333333;
+    width: 40%;
+    margin: 10px 25px;
+    background-color: #f3f3f3;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .question-choice:hover {
+    background-color: #dddddd;
+  }
+
+  .quiz-button {
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 4px 12px;
+    border: none;
+    background-color: #1c7bc6;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+  .quiz-button:hover {
+    background-color: #1c88d6;
+  }
+
+}

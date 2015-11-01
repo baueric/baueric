@@ -12,12 +12,10 @@ Rails.application.config.assets.version = '1.0'
 
 Rails.application.config.assets.precompile += %w(
   ornery/*
+  templates/*
   main_slideshow.js
   slides.jquery.js
   main.js
   weblingo.js)
 
-
-Rails.application.config.assets.precompile += %w(
-  images/weblingo-logos/*
-)
+Rails.application.config.assets.precompile << /\.(?:svg|eot|woff|ttf)\z/

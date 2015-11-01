@@ -1,0 +1,76 @@
+<%= javascript_include_tag 'ornery/game' %>
+
+<script type="text/javascript">
+
+    // prototype.js uses $
+    var $j = jQuery.noConflict();
+
+    var _canvas;
+    var _arena;
+
+    var _opponent;
+    var _thisPlayer;
+    var _intervalId = null;
+    var _stepInteval = 30;
+
+    function init(){
+        _canvas = $j('#main-canvas')[0];
+
+        _arena = new OrneryArena(_canvas, false);
+
+        $j("#ElasInput").val(_arena.physics.elasticity * 100);
+        $j("#GravInput").val(_arena.physics.gravity.y);
+    }
+
+    function play(){
+        if (_intervalId == null) {
+            init();
+            _intervalId = window.setInterval(game_loop, _stepInteval);
+        }
+    }
+
+    function game_loop(){
+        _arena.Step(_stepInteval/1000);
+    }
+
+    function reset(){
+        window.clearInterval(_intervalId);
+        _intervalId = null;
+        _arena.Clear();
+    }
+
+    function setElasticity() {
+        var val = $j("#ElasInput").val()
+        _arena.physics.SetElasticity(val / 100.0);
+    }
+    function setGravity() {
+        var val = $j("#GravInput").val()
+        _arena.physics.SetGravityY(val);
+    }
+
+</script>
+
+
+
+<div>
+  <div class="horiz-center-container">
+    A 2-dimensional physics engine I made for a class project at Drexel University. It is implemented in
+    JavaScript and runs in an HTML canvas.
+  </div>
+
+  <div class="horiz-center-container">
+      <button onclick="play()">Play</button>
+
+      <button onclick="reset()">Reset</button>
+        Elasticity: <input type="number" id="ElasInput" onchange="setElasticity()">
+        Gravity: <input type="number" id="GravInput" onchange="setGravity()">
+
+      <canvas id="main-canvas" height="500" width="800"></canvas>
+  </div>
+  <div class="horiz-center-container">
+      <iframe width="640" height="480" src="http://www.youtube.com/embed/Omfx1CSQzXk" frameborder="0" allowfullscreen>
+
+      </iframe>
+  </div>
+</div>
+

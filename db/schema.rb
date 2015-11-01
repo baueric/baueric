@@ -11,17 +11,25 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150822070422) do
+ActiveRecord::Schema.define(version: 20151101054744) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
+  create_table "classifications", force: :cascade do |t|
+    t.string   "classification"
+    t.datetime "created_at",     null: false
+    t.datetime "updated_at",     null: false
+  end
+
   create_table "lingos", force: :cascade do |t|
     t.string   "name"
-    t.string   "url"
+    t.string   "website_url"
     t.string   "tagline"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.string   "logo_url"
+    t.integer  "classification_id"
+    t.datetime "created_at",        null: false
+    t.datetime "updated_at",        null: false
   end
 
 end

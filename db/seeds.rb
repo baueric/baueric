@@ -6,15 +6,33 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
+
+# look at http://todomvc.com/
+# http://builtwith.com/
+
+require 'csv'
+
+Classification.delete_all
 Lingo.delete_all
 
-Lingo.create(name: 'Capistrano',
-             url: 'capistranorb.com',
-             tagline: 'A remote server automation and deployment tool written in Ruby.')
+csv_text = File.read('db/weblingo - Types.csv')
+csv_data = CSV.parse(csv_text, :headers => true)
+csv_data.each do |row|
+  row = row.to_hash.with_indifferent_access
+  Classification.create!(row.to_hash.symbolize_keys)
+end
 
-Lingo.create(name: 'Cucumber',
-             url: 'cucumber.io',
-             tagline: 'Simple, human collaboration')
+csv_text = File.read('db/weblingo - Data.csv')
+lingo_data = CSV.parse(csv_text, :headers => true)
+lingo_data.each do |row|
+  row = row.to_hash.with_indifferent_access
+  if (row[:_include] == '1') then
+    row = row.except(:_include, :_classification)
+    Lingo.create!(row.to_hash.symbolize_keys)
+  end
+
+end
+
 
 
 
