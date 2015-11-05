@@ -21,47 +21,7 @@
 
 @import "font-awesome-sprockets";
 @import "font-awesome";
-
-@font-face {
-    font-family: 'Walkway SemiBold';
-    src: url('Walkway SemiBold.ttf')  format('truetype')
-}
-@font-face {
-    font-family: 'Walkway Bold';
-    src: url('Walkway Bold.ttf')  format('truetype')
-}
-@font-face {
-    font-family: 'Walkway Expand SemiBold';
-    src: url('Walkway Expand SemiBold.ttf')  format('truetype')
-}
-@font-face {
-    font-family: 'Walkway SemiBold';
-    src: url('Walkway SemiBold.ttf')  format('truetype')
-}
-@font-face {
-    font-family: 'Walkway Black';
-    src: url('Walkway Black.ttf')  format('truetype')
-}
-@font-face {
-    font-family: 'Walkway Condensed Bold';
-    src: url('Walkway Condensed Bold.ttf')  format('truetype')
-}
-@font-face {
-    font-family: 'Walkway Condensed SemiBold';
-    src: url('Walkway Condensed SemiBold.ttf')  format('truetype')
-}
-@font-face {
-    font-family: 'Walkway Condensed';
-    src: url('Walkway Condensed.ttf')  format('truetype')
-}
-@font-face {
-    font-family: 'Walkway rounded';
-    src: url('Walkway rounded.ttf')  format('truetype')
-}
-@font-face {
-    font-family: 'Walkway UltraBold';
-    src: url('Walkway UltraBold.ttf')  format('truetype')
-}
+@import url(https://fonts.googleapis.com/css?family=Exo+2:400,600,400italic,300);
 
 #body {
     background-color: #ffffff;
@@ -69,8 +29,9 @@
 }
 
 * {
-    font-family: Calibri, sans-serif;
+    font-family: 'Exo 2', sans-serif;
     color: #333333;
+    font-weight: 400;
 }
 
 ul {
@@ -86,7 +47,7 @@ a img {
   padding: 6px 16px;
   font-size: 18px;
   color: #444444;
-  //background-color: #d8d8d8;
+  background-color: #e5e5e5;
   margin-left: 10px;
   border-radius: 4px;
   border: 1px dashed #dddddd;
@@ -95,4 +56,8 @@ a img {
 
 .project-link:hover {
   background-color: #aeaeae;
+}
+
+.contact_expander {
+  font-style: italic;
 }

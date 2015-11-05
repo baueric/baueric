@@ -1,119 +1,117 @@
 
 #super_container {
-    width: 1000px;
-    min-height: 800px;
-    margin: 10px auto;
+  width: 1000px;
+  min-height: 800px;
+  margin: 10px auto;
 }
 
 #main_logo {
-    display: block;
-    float: left;
-    margin-bottom: 6px;
-    font-size: 65px;
-    font-weight: lighter;
-    text-decoration: none;
+  display: block;
+  float: left;
+  margin-bottom: 6px;
+  font-size: 65px;
+  font-weight: 300;
+  text-decoration: none;
 }
 
 .main-logo-eric {
-    color: #50584f;
-    font-family: "Walkway SemiBold", sans-serif;
+  color: #50584f;
 }
 
 .main-logo-bau {
-    color: #8c6f6a;
-    font-family: "Walkway SemiBold", sans-serif;
+  color: #8c6f6a;
 }
 
 #banner {
-    height: 50px;
-    border-bottom: 1px solid #000000;
-    border-top: 1px solid #000000;
-    position: relative;
-    clear: both;
+  height: 50px;
+  border-bottom: 1px solid #000000;
+  border-top: 1px solid #000000;
+  position: relative;
+  clear: both;
 }
 
 
 #nav_bar {
-    position: absolute;
-    height: 100%;
-    width: 100%;
+  position: absolute;
+  height: 100%;
+  width: 100%;
 }
 
 /*A class foreignObject moving divs to center vertically*/
 #nav_center_floater {
-    float: left;
-    height: 50%;
-    position: relative;
+  float: left;
+  height: 50%;
+  position: relative;
 }
 
 #nav_links_area {
-    margin: 0 auto;
-    top: -10px;
-    clear: left;
-    position: relative;
-    display: block;
+  margin: 0 auto;
+  top: -10px;
+  clear: left;
+  position: relative;
+  display: block;
 }
 
 .nav_link_holder {
-    border-left: 1px solid #000000;
-    padding: 0px 0px 0px 20px;
-    margin: 0px 0px 0px 20px;
-    float: left;
+  border-left: 1px solid #000000;
+  padding: 0px 0px 0px 20px;
+  margin: 0px 0px 0px 20px;
+  float: left;
 }
 
 .nav-link {
-    font-family: "Walkway Condensed Bold", sans-serif;
-    float: left;
-    font-size: 20px;
-    letter-spacing: 1px;
-    color: #30435d;
-    cursor: pointer;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+  font-weight: 300;
+  float: left;
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: #30435d;
+  cursor: pointer;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .nav-link:link, .nav-link:visited {
-    text-decoration:none;
-    color: #30435d;
+  text-decoration:none;
+  color: #30435d;
 }
 
 .nav-link:hover {
-    color: #8c6f6a;
+  color: #8c6f6a;
 }
 
 .below-nav-expander {
-    padding: 20px 0px;
-    border-bottom: 1px solid #000000;
-    display: none;
+  padding: 20px 0px;
+  border-bottom: 1px solid #000000;
+  display: none;
 }
 
 #body_content {
 
-    margin-top: 20px;
-    padding: 0px 0px 20px 0px;
-    border-bottom: 1px solid #000000;
+  margin-top: 20px;
+  padding: 0px 0px 20px 0px;
+  border-bottom: 1px solid #000000;
 }
 
 #footer {
-    margin: 10px 0px 20px 0px;
+  margin: 10px 0px 20px 0px;
 }
 
 .footer_icon {
-    display: block;
-    float: right;
-    margin: 0px 0px 0px 12px;
-    font-size: 22px;
-    color: #444444;
-    border-left: 1px solid #444444;
-    padding-left: 12px;
+  display: block;
+  float: right;
+  margin: 0px 0px 0px 12px;
+  font-size: 22px;
+  color: #444444;
+  border-left: 1px solid #444444;
+  padding-left: 12px;
 }
 
 .no-left-border {
-    border: none;
+  border: none;
 }
 
 
