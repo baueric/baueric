@@ -34,6 +34,8 @@ source 'https://rails-assets.org' do
   gem 'rails-assets-lodash'
 end
 
+gem 'rails_12factor'
+
 #gem 'turbolinks'
 
 # To use ActiveModel has_secure_password
