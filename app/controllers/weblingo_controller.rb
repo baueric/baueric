@@ -5,7 +5,7 @@ class WeblingoController < ApplicationController
 
   def index
 
-    num_questions = 3
+    num_questions = 10
     num_choices = 4
 
     @lingos = Lingo.all

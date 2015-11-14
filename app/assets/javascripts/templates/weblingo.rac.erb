@@ -1,30 +1,56 @@
 
 <div class="weblingo-container">
 
+  <!-- INTRO SCREEN -->
   {{#if questionNum<0}}
   <div class="question-info-section">
-    Welcome to the Weblingo quiz.
+    Welcome to the Weblingo quiz. This will test your knowledge of web frameworks, libraries, utilities and other web related technologies.
     <br/>
-    Select the logo that goes with the corresponding tag-line.
+    <br/>
+    How to play:
+    <br/>
+    You will see a logo, select the corresponding tag-line from the list of options.
     <br/>
     <br/>
     <button on-click="startQuiz" class="quiz-button">Begin</button>
   </div>
 
+  <!-- END SCREEN -->
   {{elseif questionNum >= questions.length}}
   finished with score: {{score}}/{{questions.length}}
+
+  <!-- PLAYING STATE -->
   {{else}}
   <div>
 
     <div class="question-info-section">
       <img src="{{currentLingo.logo_url}}" class="logo-img" title="{{currentLingo.name}}" >
+      
     </div>
 
     <div class="question-info-section">
       {{#choicesTagline:i}}
-      <div class="question-choice" on-click="choiceClick(i)">
-        <i class="fa fa-quote-left"></i>&nbsp;&nbsp;{{.}}&nbsp;&nbsp;<i class="fa fa-quote-right"></i>
+      <div class="question-choice {{#if questionReview}}disable-choice{{/if}}" on-click="choiceClick(i)">
+        <i class="fa fa-quote-left quote-icon"></i>&nbsp;{{.}}&nbsp;<i class="fa fa-quote-right quote-icon"></i>
+        {{#questionReview}}
+          {{#if i == chosen && chosen != correct}}
+            <i class="fa fa-times-circle-o red-text q-review-icon"></i>
+          {{/if}}
+          {{#if i == correct}}
+            <i class="fa fa-check-circle-o green-text q-review-icon"></i>
+          {{/if}}
+        {{/}}
       </div>
+      {{/}}
+    </div>
+
+    <div class="quiz-footer">
+      question {{questionNum + 1}} of {{questions.length}}
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      score: {{score}}
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      {{#questionReview}}
+      <button class="quiz-button next-question-button" on-click="nextQuestion()">Next Question&nbsp;<i class="fa fa-arrow-right"></i></button>
       {{/}}
     </div>
 

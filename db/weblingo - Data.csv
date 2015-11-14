@@ -1,5 +1,5 @@
 name,website_url,tagline,classification_id,_classification,logo_url,_include
-Ruby on Rails,http://rubyonrails.org/,an open-source web framework that’s optimized for programmer happiness and sustainable productivity. It lets you write beautiful code by favoring convention over configuration.,1,Web framework,http://hostingcloudvps.com/wp-content/uploads/2015/10/rubyrails-1.png,1
+Ruby on Rails,http://rubyonrails.org/,an open-source web framework that’s optimized for programmer happiness and sustainable productivity. It lets you write beautiful code by favoring convention over configuration.,1,Full framework,http://hostingcloudvps.com/wp-content/uploads/2015/10/rubyrails-1.png,1
 Heroku,https://www.heroku.com,Deploy and run apps on today's most innovative Platform as a Service,4,Cloud platform as a service,http://cdn.liviutudor.com/wp-content/uploads/2015/05/groovy-lang-300x150.png,1
 Mongoose,http://mongoosejs.com/,elegant mongodb object modeling for node.js,7,Database object modeling,http://www.santiagodelatorre.me/img/technologies/mongoose.png,1
 CoffeeScript,http://coffeescript.org/,a little language that compiles into JavaScript,8,Javascript precompiler,http://sparksolutions.co/wp-content/uploads/2015/05/coffeescript.png,1
@@ -13,12 +13,30 @@ Groovy,http://www.groovy-lang.org/,"a powerful, optionally typed and dynamic lan
 Angular.js,https://angularjs.org/,"what HTML would have been, had it been designed for building web-apps. Declarative templates with data-binding",9,Front-end framework,http://vojtajina.github.io/html5la/2012-05-30-boston/images/AngularShieldLogo.png,1
 Node.js,https://nodejs.org/,an asynchronous event driven framework designed to build scalable network applications,10,Back-end framework,http://aredo.github.io/jakartajs-may-2014-meetup/images/node-js-logo-large.png,1
 Twitter Bootstrap,getbootstrap.com,"the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web.",9,Front-end framework,https://jayeshcp.files.wordpress.com/2013/03/twitter-bootstrap.jpg,1
-Django,https://www.djangoproject.com/,"a high-level Python Web framework that encourages rapid development and clean, pragmatic design",1,Web framework,http://www.fullstackpython.com/theme/img/django-logo-positive.png,1
+Django,https://www.djangoproject.com/,"a high-level Python Web framework that encourages rapid development and clean, pragmatic design",1,Full framework,http://www.fullstackpython.com/theme/img/django-logo-positive.png,1
 WordPress,https://wordpress.org/,"web software you can use to create a beautiful website, blog, or app",11,Content management system,https://s.w.org/about/images/logos/wordpress-logo-stacked-rgb.png,1
 drupal,https://www.drupal.org/,an open source content management platform powering millions of websites and applications,11,Content management system,http://d3a76m97whzzf.cloudfront.net/wp-content/uploads/2014/09/drupal-logo.png,1
  batman.js,http://batmanjs.org/,"If you love Ruby on Rails...this is the best, most familiar way to build rich web apps in CoffeeScript.",9,Front-end framework,http://devrates.com/project/logo/79079,1
-sizzle.js,http://sizzlejs.com/,a pure-JavaScript CSS selector engine designed to be easily dropped in to a host library.,0,None,http://sizzlejs.com/i/logo-2.png,1
-canjs,http://canjs.com/,"a JavaScript library that makes developing complex applications simple and fast. Easy-to-learn, small, and unassuming of your application structure, but with modern features like custom tags and 2-way binding. Creating apps is easy and maintainable.",1,Web framework,https://pbs.twimg.com/profile_images/479631290367348736/4CCcFo0m.png,1
+sizzle.js,http://sizzlejs.com/,a pure-JavaScript CSS selector engine designed to be easily dropped in to a host library.,6,Javascript library,http://sizzlejs.com/i/logo-2.png,1
+canjs,http://canjs.com/,"a JavaScript library that makes developing complex applications simple and fast. Easy-to-learn, small, and unassuming of your application structure, but with modern features like custom tags and 2-way binding. Creating apps is easy and maintainable.",1,Full framework,https://pbs.twimg.com/profile_images/479631290367348736/4CCcFo0m.png,1
+Express,http://expressjs.com/,"Fast, unopinionated, minimalist web framework for Node.js",9,Front-end framework,https://i.cloudup.com/zfY6lL7eFa-3000x3000.png,1
+SASS,http://sass-lang.com/,CSS with superpowers,3,CSS pre-processor,http://sass-lang.com/assets/img/logos/logo-b6e1ef6e.svg,1
+LESS,http://lesscss.org/,"make CSS that is more maintainable, themable and extendable. Runs inside Node, in the browser and inside Rhino.",3,CSS pre-processor,http://www.bigboxx.in/wp-content/uploads/2014/07/less-css.jpg,1
+Redis,http://redis.io/,"open source (BSD licensed), in-memory data structure store, used as database, cache and message broker",12,Database,https://scottlinux.com/wp-content/uploads/2014/10/redis-logo.png,1
+Symfony,https://symfony.com/,"a set of PHP Components, a Web Application framework, a Philosophy, and a Community — all working together in harmony",1,Full framework,https://sensiolabs.com/images/illustration/inner_pages/products/sf.jpg,1
+requirejs,http://requirejs.org/,a JavaScript file and module loader,0,None,http://bran.name/dump/requirejs-logo.svg,1
+dojo.js,https://dojotoolkit.org/,A JavaScript toolkit that saves you time and scales with your development process,9,Front-end framework,http://download.dojotoolkit.org/release-1.0.3/dojo-release-1.0.3/util/resources/logo/positive/dojo.logo.png,1
+backbone.js,http://backbonejs.org/,gives structure to web applications by providing models with key-value binding and custom events,9,Front-end framework,http://backbonejs.org/docs/images/backbone.png,1
+sammy.js,http://sammyjs.org/,a small web framework with class,9,Front-end framework,http://sammyjs.org/images/sammy-logo-header-large.png,1
+lighttpd,http://www.lighttpd.net/,rapidly redefining efficiency of a webserver,5,Web server,http://www.lighttpd.net/light_logo_170px.png,1
+ractive.js,http://www.ractivejs.org/,The diamond age of web development: next-generation DOM manupulation,9,Front-end framework,http://div.io/uploads/screenshot/152_m.png,1
+ringo.js,http://ringojs.org/,Multi-threaded JavaScript on the JVM,0,None,http://ringojs.org/static/favicons/og-image-1200.png,1
+Yii,http://www.yiiframework.com/,"The Fast, Secure and Professional PHP Framework",1,Full framework,http://www.noreplied.com/wp-content/uploads/2015/04/yii-framework-1395598244.png,1
+underscore.js,http://underscorejs.org/,a JavaScript library that provides a whole mess of useful functional programming helpers without extending any built-in objects,6,Javascript library,http://underscorejs.org/docs/images/underscore.png,1
+Flask,http://flask.pocoo.org/,"a microframework for Python based on Werkzeug, Jinja 2 and good intentions",1,Full framework,http://flask.pocoo.org/static/logo.png,1
+Phalcon,https://phalconphp.com/en/,A full-stack PHP framework delivered as a C-extension,1,Full framework,http://ngecoding.com/images/bank/phalcon-php-egy-uj-perspektiva.png,1
+Laravel,http://laravel.com/,The PHP Framework For Web Artisans,1,Full framework,http://m.c.lnkd.licdn.com/mpr/mpr/AAEAAQAAAAAAAAblAAAAJGRmY2NjYjVhLTk2MDctNGMxYi1hYmYyLWM0MTkxNjRjYWQ5OQ.png,1
+ember.js,http://emberjs.com/,a framework for creating ambitious web applications,9,Front-end framework,http://www.gravatar.com/avatar/0cf15665a9146ba852bf042b0652780a?s=200,1
 KendoUI,,,0,None,,0
 ASP.NET,,"a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.",0,None,,0
 MVC,,,0,None,,0
@@ -28,12 +46,6 @@ Ajax,,,0,None,,0
 CSS,,,0,None,,0
 SVN,,,0,None,,0
 Git,,,0,None,,0
-AES,,,0,None,,0
-SSL,,,0,None,,0
-Express,Web Framework,,0,None,,0
-SASS,Css precompiler,,0,None,,0
-SCSS,Css precompiler,,0,None,,0
-LESS,Css precompiler,,0,None,,0
 Stylus,Css precompiler,,0,None,,0
 Compass,Css precompiler,,0,None,,0
 Jade,javascript template engine,,0,None,,0
@@ -57,47 +69,36 @@ Yeoman,,,0,None,,0
 Ratchet,http://goratchet.com/,,0,None,,0
 IndexedDB,,,0,None,,0
 localStorage,,,0,None,,0
-Laravel,,,0,None,,0
 Bower,,,0,None,,0
 Grunt,,,0,None,,0
 Gulp,,,0,None,,0
 HHVM,,,0,None,,0
-Redis,http://redis.io/,,0,None,,0
 Beanstalkd,,,0,None,,0
 Memcached,,,0,None,,0
 Hack,,,0,None,,0
 XML,,,0,None,,0
 Favicon,,,0,None,,0
-LAMP,,,0,None,,0
 SOAP,,,0,None,,0
-URL,,,0,None,,0
 SMTP,,,0,None,,0
 Go,,,0,None,,0
 Sprockets,,,0,None,,0
 Webstorm,,,0,None,,0
 Rubymine,,,0,None,,0
 SublimeText,,,0,None,,0
-Visual Studio,,,0,None,,0
-Symfony,,,0,None,,0
 BEM,bem.info,,0,None,,0
 cold fusion,,,0,None,,0
 react,,,0,None,,0
 jetpack,,,0,None,,0
-requirejs,,,0,None,,0
 zepto.js,,,0,None,,0
 yui,,,0,None,,0
-dojo.js,,,0,None,,0
 mootools.js,,,0,None,,0
 handlebars.js,,,0,None,,0
-ember.js,,,0,None,,0
-backbone.js,,,0,None,,0
 raphael.js,,,0,None,,0
 modernizr.js,,,0,None,,0
 yepnode.js,,,0,None,,0
 polymer,,,0,None,,0
 ext.js,,,0,None,,0
 knockout.js,,,0,None,,0
-sammy.js,,,0,None,,0
 breeze.js,,,0,None,,0
 traceur,,,0,None,,0
 broccoli,,,0,None,,0
@@ -152,37 +153,30 @@ Ansible,http://www.ansible.com,Deploy apps. Manage systems. Crush complexity.,0,
 lodash,lodash.com,"A JavaScript utility library delivering consistency, modularity, performance, & extras.",0,None,,0
 New Relic,http://newrelic.com/,Actionable insights to monitor and improve the performance of your applications.,0,None,,0
 Flux,,Application architecture for building user interfaces,0,None,,0
-Compass,http://compass-style.org/,...is an open-source CSS Authoring Framework.,0,None,,0
+Compass,http://compass-style.org/,is an open-source CSS Authoring Framework.,0,None,,0
 Coveralls,https://coveralls.io/,We help you deliver code confidently by showing which parts of your code aren’t covered by your test suite.,0,None,,0
 Vue.js,http://vuejs.org/,Reactive Components for Modern Web Interfaces,0,None,http://vuejs.org/images/logo.png,0
 Azure,,,0,None,,0
 AWS,,,0,None,,0
 OpenShift,,,0,None,,0
 mongoDB,,,0,None,http://photos2.meetupstatic.com/photos/event/9/5/c/0/highres_21338336.jpeg,0
-mariaDB,,,,,,0
-postgres,,,,,,0
-,,,,,,0
-,,,,,,0
-,,,,,,0
-,,,,,,0
-,,,,,,0
-,,,,,,0
-,,,,,,0
-,,,,,,0
-,,,,,,0
-,,,,,,0
-,,,,,,0
-,,,,,,0
-,,,,,,0
-,,,,,,0
-,,,,,,0
-,,,,,,0
-,,,,,,0
-,,,,,,0
-,,,,,,0
-,,,,,,0
-,,,,,,0
-,,,,,,0
-,,,,,,0
-,,,,,,0
-,,,,,,0
+mariaDB,,,0,None,,0
+postgres,,,0,None,,0
+Rhino,https://developer.mozilla.org/en-US/docs/Mozilla/Projects/Rhino,open-source implementation of JavaScript written entirely in Java,0,None,,0
+commonJS,http://requirejs.org/docs/commonjs.html,,0,None,http://www.lieliao.net/wp-content/uploads/2015/05/Aj6bquz.png,0
+Forge,,,0,None,,0
+lumen,,,0,None,,0
+Golang,,,0,None,,0
+Rust,,,0,None,,0
+npm,,,0,None,,0
+CodeIgnitor,https://codeigniter.com/,,0,None,,0
+total.js,https://www.totaljs.com/,,0,None,,0
+Micro-App,http://famous.co/,,11,Content management system,,0
+Zend,http://framework.zend.com/,,0,None,,0
+Apigility,https://apigility.org/,,0,None,,0
+hoodie,http://hood.ie/,"enables you to express yourself through technology by making web application development very fast, easy and accessible",0,None,,0
+GreenSock,http://greensock.com/,"Ultra high-performance, professional-grade animation for the modern web",0,None,,0
+Materialize,http://materializecss.com/,A modern responsive front-end framework based on Material Design,9,Front-end framework,,0
+Essence,http://essence.pearlhq.com/,The essential material design framework,0,None,,0
+,,,0,None,,0
+,,,0,None,,0

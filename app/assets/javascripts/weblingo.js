@@ -53,15 +53,21 @@ window.Weblingo = Ractive.extend({
   },
 
   nextQuestion: function() {
+    this.set('questionReview', null);
     this.add('questionNum');
   },
 
   choiceClick: function(num) {
-    var correctChoice = this.get('correctChoice');
-    if (this.get('correctChoice') == num) {
-      this.add('score');
+    if (!this.get('questionReview')) {
+      var correctChoice = this.get('correctChoice');
+      if (this.get('correctChoice') == num) {
+        this.add('score');
+      }
+      this.set('questionReview', {
+        correct: this.get('correctChoice'),
+        chosen:  num
+      });
     }
-    this.nextQuestion();
   }
 
 });
