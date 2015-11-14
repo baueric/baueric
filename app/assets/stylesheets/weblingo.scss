@@ -29,7 +29,7 @@
     width: 40%;
     margin: 20px 25px;
     background-color: #f3f3f3;
-    border: 1px solid #dddddd;
+    border: 3px solid #dddddd;
     border-radius: 4px;
     text-align: center;
     padding: 10px;
@@ -38,12 +38,23 @@
     &:hover {
       background-color: #dddddd;
     }
+
+    &.disable-choice {
+      background-color: #dddddd;
+      cursor: auto;
+    }
+
+    &.chosen-correct {
+      border: 3px solid #58c648;
+    }
+
+    &.chosen-incorrect {
+      border: 3px solid #da3230;
+    }
+
   }
 
-  .disable-choice {
-    background-color: #dddddd;
-    cursor: auto;
-  }
+
 
   .quiz-button {
     font-size: 18px;
@@ -94,6 +105,10 @@
 
   .green-text {
     color: #58c648;
+  }
+
+  .hidden-item {
+    display: none;
   }
 
 }

@@ -24,13 +24,19 @@
   <div>
 
     <div class="question-info-section">
-      <img src="{{currentLingo.logo_url}}" class="logo-img" title="{{currentLingo.name}}" >
+
+      <!-- Load all images -->
+      {{#questions:i}}
+      <img src="{{lingos[questions[i].lingoId].logo_url}}" class="logo-img {{#if i != questionNum}}hidden-item{{/if}}"
+           title="{{lingos[questions[i].lingoId].name}}">
+      {{/if}}
 
     </div>
 
     <div class="question-info-section">
       {{#choicesTagline:i}}
-      <div class="question-choice {{#if questionReview}}disable-choice{{/if}}" on-click="choiceClick(i)">
+      <div class="question-choice {{#if questionReview}}disable-choice{{/if}} {{#questionReview}}{{#if chosen == i}}chosen{{#if chosen == correct}}-correct{{else}}-incorrect{{/if}}{{/if}}{{/}}"
+           on-click="choiceClick(i)">
         <i class="fa fa-quote-left quote-icon"></i>&nbsp;{{.}}&nbsp;<i class="fa fa-quote-right quote-icon"></i>
         {{#questionReview}}
           {{#if i == chosen && chosen != correct}}
