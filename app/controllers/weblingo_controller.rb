@@ -24,7 +24,8 @@ class WeblingoController < ApplicationController
       new_q = {
         lingoId: q_id,
         choiceIds: choice_ids,
-        correctChoice: correct_choice
+        correctChoice: correct_choice,
+        status: 0
       }
 
       @questions << new_q

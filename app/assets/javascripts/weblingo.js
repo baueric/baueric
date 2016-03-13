@@ -60,8 +60,14 @@ window.Weblingo = Ractive.extend({
   choiceClick: function(num) {
     if (!this.get('questionReview')) {
       var correctChoice = this.get('correctChoice');
+      var questionNum = this.get('questionNum');
       if (this.get('correctChoice') == num) {
         this.add('score');
+        // Is there a better way than string concatenation??
+        this.set('questions[' + questionNum + '].status', 1);
+      }
+      else {
+        this.set('questions[' + questionNum + '].status', -1);
       }
       this.set('questionReview', {
         correct: this.get('correctChoice'),

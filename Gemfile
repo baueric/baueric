@@ -34,7 +34,7 @@ source 'https://rails-assets.org' do
   gem 'rails-assets-lodash'
 end
 
-gem 'rails_12factor'
+gem 'rails_12factor', group: :production
 
 #gem 'turbolinks'
 
