@@ -56,7 +56,7 @@
       <div class="quiz-footer">
         {{#questions:i}}
 
-          <i class="fa fa{{#if this.status == 1}}-check{{/if}}-square-o ques-list-boxes
+          <i class="fa {{#if this.status == 1}}fa-check-square{{else}}fa-square-o{{/if}} ques-list-boxes
             {{#if i == questionNum}}curr-ques-box{{/if}} {{#if this.status == 1}}green-text{{/if}}
             {{#if this.status == -1}}red-text{{/if}}"></i>
         {{/}}

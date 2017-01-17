@@ -16,6 +16,7 @@ Rails.application.config.assets.precompile += %w(
   main_slideshow.js
   slides.jquery.js
   main.js
-  weblingo.js)
+  weblingo.js
+  type3/*)
 
 Rails.application.config.assets.precompile << /\.(?:svg|eot|woff|ttf)\z/
